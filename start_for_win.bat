@@ -1,0 +1,2 @@
+php Applications\SmartBed\start_register.php Applications\SmartBed\start_web.php Applications\SmartBed\start_gateway.php Applications\SmartBed\start_businessworker.php Applications\SmartBed\start_package_gateway.php php Applications\SmartBed\start_virtualbed.php
+pause

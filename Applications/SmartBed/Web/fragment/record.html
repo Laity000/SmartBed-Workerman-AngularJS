@@ -1,0 +1,35 @@
+<div >
+
+
+    <div class="demos-header">
+      <h1 class="demos-title">姿态记录</h1>
+      <p class="demos-sub-title">显示最近一段时间内设备的姿态变化情况</p>
+    </div>
+
+
+
+    <div class="weui-btn-area">
+        <a class="weui-btn weui-btn_primary" href="javascript:" ng-click="return()">返回</a>
+    </div>
+    <!-- 显示记录日期模式 -->
+    <div class="weui-cells" ng-show="showDates">
+        <a class="weui-cell weui-cell_access" href="javascript:;" ng-repeat="x in Messages.getRecordDates()" ui-sref='record({key:"posture",value:x.date})'>
+            <div class="weui-cell__bd">
+                <p>{{x.date}}的数据</p>
+            </div>
+            <div class="weui-cell__ft">前{{x.todate}}天</div>
+        </a>
+    </div>
+
+    <!-- 显示记录姿态模块 -->
+    <div class="weui-panel weui-panel_access" ng-show = "showPostures">
+        <!-- <div class="weui-panel__hd"></div> -->
+        <div class="weui-panel__bd">
+            <div class="weui-media-box weui-media-box_text" ng-repeat="x in Messages.getRecordPostures()">
+                <h4 class="weui-media-box__title">{{x.time}}</h4>
+                <p class="weui-media-box__desc">背部：{{x.posture_head}}°；腿部：{{x.posture_leg}}°；左翻：{{x.posture_left}}°；右翻：{{x.posture_right}}°；升降：{{x.posture_lift}}cm</p>
+            </div>
+        </div>
+    </div>
+
+</div>

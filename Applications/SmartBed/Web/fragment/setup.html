@@ -1,0 +1,86 @@
+<div >
+
+
+<div class="demos-header">
+  <h1 class="demos-title">SmartBed</h1>
+  <p class="demos-sub-title">可以远程监控的智能护理床</p>
+</div>
+
+
+<div class="weui-cells__title">设置</div>
+<div class="weui-cells weui-cells_form">
+  <div class="weui-cell weui-cell_vcode">
+    <div class="weui-cell__hd">
+      <label class="weui-label">设备号：</label>
+    </div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" ng-model="pid" placeholder="请输入设备PID" ng-disabled="Messages.getIsBound().tag">
+    </div>
+    <div class="weui-cell__ft">
+      <button class="weui-vcode-btn" ng-click="bind()" >{{Messages.getIsBound().text}}</button>
+    </div>
+  </div>
+</div>
+
+<div class="weui-cells__title">测试</div>
+<div class="weui-cells">
+  <div class="weui-cell">
+    <div class="weui-cell__bd">
+      <p>模拟设备号：</p>
+    </div>
+    <div class="weui-cell__ft">admin1, admin2, admin3</div>
+  </div>
+</div>
+
+
+<div class="weui-cells__title">控制</div>
+<div class="weui-cells weui-cells_form">
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">控制权限：</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="password" pattern="^[A-Za-z0-9]+$" placeholder="(测试开放中)">
+    </div>
+  </div>
+  <div class="weui-cell weui-cell_switch">
+    <div class="weui-cell__bd">打开姿态控制</div>
+    <div class="weui-cell__ft">
+      <input class="weui-switch" type="checkbox"  ng-model="$root.isControllModel">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="weui-cells__title">显示</div>
+<div class="weui-cells weui-cells_radio">
+  <label class="weui-cell weui-check__label" for="x11">
+    <div class="weui-cell__bd">
+      <p>文本模式</p>
+    </div>
+    <div class="weui-cell__ft">
+      <input type="radio" class="weui-check" name="radio1" id="x11" ng-model="$root.showModel" value="textShow" checked="checked">
+      <span class="weui-icon-checked"></span>
+    </div>
+  </label>
+  <label class="weui-cell weui-check__label" for="x12">
+    <div class="weui-cell__bd">
+      <p>图片模式</p>
+    </div>
+    <div class="weui-cell__ft">
+      <input type="radio" name="radio1" id="x12" class="weui-check" ng-model="$root.showModel"  value="pictureShow" >
+      <span class="weui-icon-checked"></span>
+    </div>
+  </label>
+</div>
+
+<a href="javascript:void(0);" class="weui-cell weui-cell_link" ng-click="contact
+()">
+    <div class="weui-cell__bd">注意事项</div>
+</a>
+
+
+<div class="weui-btn-area">
+  <a class="weui-btn weui-btn_primary" href="javascript:" ui-sref='home'>返回</a>
+</div>
+
+</div>
