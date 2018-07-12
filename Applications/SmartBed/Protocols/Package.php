@@ -22,7 +22,7 @@ class Package
     }
 
     public static function decode($buffer){
-        //echo "message received". bin2hex($buffer) ."\n";
+        //echo "message received: ". bin2hex($buffer) ."\n";
         //解包
         $unpack_data = unpack('Clength/Ctype', substr($buffer, 1, 2));
         $data = '';
@@ -40,11 +40,11 @@ class Package
                 break;
             case 0x03:
                 //POSTURE 长度为6字节的反馈
-                $data =  unpack('Ctype/Chead/Cleg/Cleft/Cright/Clift/Csum', substr($buffer, 2));
+                $data =  unpack('Ctype/Chead/Cleg/Cleft/Cright/Clift/Cbefore/Cafter/Csum', substr($buffer, 2));
                 break;
             case 0x04:
                 //DONE 长度为1字节的反馈
-                $data =  unpack('Ctype/Chead/Cleg/Cleft/Cright/Clift/Csum', substr($buffer, 2));
+                $data =  unpack('Ctype/Chead/Cleg/Cleft/Cright/Clift/Cbefore/Cafter/Csum', substr($buffer, 2));
                 break;
             case 0x05:
                 //DONE 长度为1字节的反馈

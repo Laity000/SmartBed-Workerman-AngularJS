@@ -17,6 +17,8 @@ $sql = "CREATE TABLE tb_posture_record( ".
         "posture_left TINYINT,".
         "posture_right TINYINT,".
         "posture_lift TINYINT,".
+        "posture_before TINYINT,".
+        "posture_after TINYINT,".
         "time DATETIME, ".
         "PRIMARY KEY ( id ))ENGINE=InnoDB DEFAULT CHARSET=utf8; ";
 mysqli_select_db( $conn, 'db_smartbed' );

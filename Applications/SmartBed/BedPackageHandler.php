@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * 设备与服务器数据包协议的业务逻辑
+ *
+ * @author zhangjing
+ * @link https://github.com/Laity000
+ * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+
 use \GatewayWorker\Lib\Gateway;
 use \Workerman\Lib\Timer;
 require_once __DIR__ . '/../../vendor/autoload.php';
@@ -44,7 +52,10 @@ class BedPackageHandler
  	{
     	echo "Server: connect checking...\n";
     
-    	
+    	if (!empty($_SESSION['PID'])) {
+            echo "Server: PID is existence.";
+            return false;
+        }
      	//检查PID
     	if(empty($package_data['PID']))
     	{
@@ -101,6 +112,18 @@ class BedPackageHandler
   		return true;
 	}
 
+    /**
+     * 向设备发送查询PID消息
+     */
+    public static function queryPID(){
+        $new_package = array('length' => 1, 'type' => Utils::QUERY_PID);
+        Gateway::sendToCurrentClient($new_package);
+        echo "Server: query PID..";
+    }
+
+    /**
+     * 向用户发送姿态消息
+     */
 	private static function sendPosture($client_id, $package_data)
 	{
   		echo "Bed[". $_SESSION['PID'] ."]:send posture info to users...\n";  
@@ -110,12 +133,15 @@ class BedPackageHandler
     		return false;
   		}else{
           	//向绑定的用户发送姿态信息
-          	$new_message = array('type' => 'POSTURE', 'from' => 'SERVER', 'content' => array('head' => $package_data['head'], 'leg' => $package_data['leg'], 'left' => $package_data['left'], 'right' => $package_data['right'], 'lift' => $package_data['lift']));
+          	$new_message = array('type' => 'POSTURE', 'from' => 'SERVER', 'content' => array('head' => $package_data['head'], 'leg' => $package_data['leg'], 'left' => $package_data['left'], 'right' => $package_data['right'], 'lift' => $package_data['lift'], 'before' => $package_data['before'], 'after' => $package_data['after']));
     		Gateway::sendToUid($_SESSION['PID'], json_encode($new_message));
     		return true;
   		}
 	}
 
+    /**
+     * 向用户发送工作完成消息(包括姿态)
+     */
 	private static function sendDone($client_id, $package_data, $db)
 	{
  		echo "Bed[". $_SESSION['PID'] ."]:send done info to users...\n";
@@ -125,7 +151,7 @@ class BedPackageHandler
     	return false;
   		}else{
           	//向绑定的用户工作完成信息
-          	$new_message = array('type' => 'DONE', 'from' => 'SERVER', 'content' => array('head' => $package_data['head'], 'leg' => $package_data['leg'], 'left' => $package_data['left'], 'right' => $package_data['right'], 'lift' => $package_data['lift']));
+          	$new_message = array('type' => 'DONE', 'from' => 'SERVER', 'content' => array('head' => $package_data['head'], 'leg' => $package_data['leg'], 'left' => $package_data['left'], 'right' => $package_data['right'], 'lift' => $package_data['lift'], 'before' => $package_data['before'], 'after' => $package_data['after']));
     		Gateway::sendToUid($_SESSION['PID'], json_encode($new_message));
           	//记录到数据库
     		$odate = date("Y-m-d H:i:s");
@@ -137,6 +163,8 @@ class BedPackageHandler
       		'posture_left' => $package_data['left'],
       		'posture_right' => $package_data['right'],
       		'posture_lift' => $package_data['lift'],
+            'posture_before' => $package_data['before'],
+            'posture_after' => $package_data['after'],
       		'time' => $odate))->query();
     		if ($insert_id) {
       			echo "Server: DB insert posture record successful.\n";
@@ -147,6 +175,10 @@ class BedPackageHandler
   		}
 	}
 
+
+    /**
+     * 向用户发送工作未完成消息
+     */
 	private static function sendUndone($client_id, $package_data)
 	{
   		echo "Bed[". $_SESSION['PID'] ."]:send undone info to users...\n";

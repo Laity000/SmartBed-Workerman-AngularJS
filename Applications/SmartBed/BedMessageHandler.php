@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * 设备与服务器websocket协议的业务逻辑
+ *
+ * @author zhangjing
+ * @link https://github.com/Laity000
+ * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+
 use \GatewayWorker\Lib\Gateway;
 use \Workerman\Lib\Timer;
 require_once __DIR__ . '/../../vendor/autoload.php';
@@ -43,7 +51,6 @@ class BedMessageHandler{
         break;
         
         }
-
     }
 
 	/**
@@ -161,6 +168,8 @@ class BedMessageHandler{
             'posture_left' => intval($message_data['content']['left']),
             'posture_right' => intval($message_data['content']['right']),
             'posture_lift' => intval($message_data['content']['lift']),
+            'posture_before' => intval($message_data['content']['before']),
+            'posture_after' => intval($message_data['content']['after']),
             'time' => $odate))->query();
             if ($insert_id) {
                 echo "Server: DB insert posture record successful.";

@@ -72,13 +72,15 @@ class UserMessageHandler
 			self::sendServerFeedback(Utils::SUCCESS_BIND_CODE, Utils::SUCCESS_BIND_TEXT);
 			//info
 			echo "User[". $client_id ."]: ". Utils::SUCCESS_BIND_TAG ."\n";
+			//增加发送指令标志位
+
 			return true;
 		}else{
 			//绑定的PID设备不在线 
 			self::sendServerFeedback(Utils::FAIL_BIND_OFFLINE_CODE, Utils::FAIL_BIND_OFFLINE_TEXT);
 			//info
 			echo "User[". $client_id ."]: ". Utils::FAIL_BIND_OFFLINE_TAG ."\n";
-					return false;
+			return false;
 		}
 				
 	}
@@ -89,10 +91,10 @@ class UserMessageHandler
 	 * @return 
 	 */
 	private static function checkUnbind($client_id){
-			Gateway::unbindUid($client_id, null);
-			$_SESSION['boundPID'] = null;
-			self::sendServerFeedback(Utils::SUCCESS_UNBIND_CODE, Utils::SUCCESS_UNBIND_TEXT);
-			echo "User[". $client_id ."]: ". Utils::SUCCESS_UNBIND_TAG ."\n";
+		Gateway::unbindUid($client_id, null);
+		$_SESSION['boundPID'] = null;
+		self::sendServerFeedback(Utils::SUCCESS_UNBIND_CODE, Utils::SUCCESS_UNBIND_TEXT);
+		echo "User[". $client_id ."]: ". Utils::SUCCESS_UNBIND_TAG ."\n";
 	}
 
 	/**
@@ -104,8 +106,7 @@ class UserMessageHandler
 	private static function sendServerFeedback($code, $text)
 	{
 			
-		$new_message = array('type' => 'SERVER_FEEDBACK', 'from' => 'SERVER', 
-						'content' => array($code => $text));
+		$new_message = array('type' => 'SERVER_FEEDBACK', 'from' => 'SERVER', 'content' => array($code => $text));
 		Gateway::sendToCurrentClient(json_encode($new_message));
 		//echo "Server:(send feedback) ". $text ."[". $code ."]\n";
 	}
@@ -148,7 +149,13 @@ class UserMessageHandler
 				$new_package = array('length' => 3, 'type' => Utils::CONTROL_POSTURE, 'pos' => 4, 'angle' => $angle);
 				break;
 			case 'lift':
-				$new_package = array('length' => 3, 'type' => Utils::CONTROL_POSTURE, 'pos' => 4, 'angle' => $angle);
+				$new_package = array('length' => 3, 'type' => Utils::CONTROL_POSTURE, 'pos' => 5, 'angle' => $angle);
+				break;
+			case 'before':
+				$new_package = array('length' => 3, 'type' => Utils::CONTROL_POSTURE, 'pos' => 6, 'angle' => $angle);
+				break;
+			case 'after':
+				$new_package = array('length' => 3, 'type' => Utils::CONTROL_POSTURE, 'pos' => 7, 'angle' => $angle);
 				break;
 			default:
 				self::sendServerFeedback(Utils::FAIL_CONTROLPOSTURE_POS_CODE, Utils::FAIL_CONTROLPOSTURE_POS_TEXT);
@@ -252,7 +259,7 @@ class UserMessageHandler
 			break;
 			case 'posture':
 				if (!empty($value)) {
-					$sql = 'SELECT posture_head, posture_leg, posture_left, posture_right,posture_lift, time
+					$sql = 'SELECT posture_head, posture_leg, posture_left, posture_right,posture_lift,posture_before,posture_after, time
 					FROM `tb_posture_record` 
 					WHERE pid="' .$boundPID. '" and date(time) = "' .$value. '"';
 					$postures = $db->query($sql);

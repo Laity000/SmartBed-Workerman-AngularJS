@@ -1,4 +1,13 @@
 <?php
+
+/**
+ * 模拟虚拟设备
+ *
+ * @author zhangjing
+ * @link https://github.com/Laity000
+ * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+
 use Workerman\Worker;
 use Workerman\Connection\AsyncTcpConnection;
 use \Workerman\Lib\Timer;
@@ -31,7 +40,9 @@ class VirtualBed
         'leg'   => 0,
         'left'  => 0,
         'right' => 0,
-        'lift'  => 0
+        'lift'  => 0,
+        'before'=> 0,
+        'after' => 0
     );
 
     /**
@@ -143,6 +154,8 @@ class VirtualBed
         			$this->_posture['left'] = 0;
         			$this->_posture['right'] = 0;
         			$this->_posture['lift'] = 0;
+                    $this->_posture['before'] = 0;
+                    $this->_posture['after'] = 0;
                 break;
                 case 'head':
                     $this->_posture['left'] = 0;
@@ -168,6 +181,18 @@ class VirtualBed
                 break;  
                 case 'lift':
                     $this->_posture['lift'] = intval($angle);
+                    $this->_posture['before'] = 0;
+                    $this->_posture['after'] = 0;
+                break;
+                case 'before':
+                    $this->_posture['before'] = intval($angle);
+                    $this->_posture['lift'] = 0;
+                    $this->_posture['after'] = 0;
+                break;
+                case 'after':
+                    $this->_posture['after'] = intval($angle);
+                    $this->_posture['lift'] = 0;
+                    $this->_posture['before'] = 0;
                 break;  
             }  
         } 

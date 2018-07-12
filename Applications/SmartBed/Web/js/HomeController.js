@@ -1,14 +1,25 @@
 'use strict';
  //Define `SetupController`
 
-app.controller('HomeController', function($scope) {
+app.controller('HomeController', function($scope, $stateParams, $location) {
 
  
     //初始化文本显示
     if (!$scope.showModel) {
         $scope.showModel = "textShow";
     }
-
+    //传参判断,绑定操作
+    if ($stateParams.pid && $scope.Messages.getIsBound().tag == false) {
+       $.showLoading('绑定设备中..');
+        setTimeout(function() {
+            sendBind($stateParams.pid);
+        }, 2000)
+    }
+    $scope.$watch('Messages.getIsBound().tag', function(newValue,oldValue){ 
+        if ( oldValue == false && newValue == true) {
+            $location.path('msg');
+        }
+    });
  	//刷新操作
  	$scope.refresh = function(){
         //检查是否绑定设备
@@ -74,11 +85,23 @@ app.controller('HomeController', function($scope) {
                 $scope.unit = 'º';
                 $scope.maxAngle = 20;
             break;
-                case 'lift': 
+            case 'lift': 
                 $scope.pos = '升降';
                 $scope.angle = $scope.Messages.getPosture().lift;
                 $scope.unit = 'cm';
                 $scope.maxAngle = 20;
+            break;
+            case 'before': 
+                $scope.pos = '前倾';
+                $scope.angle = $scope.Messages.getPosture().before;
+                $scope.unit = 'º';
+                $scope.maxAngle = 10;
+            break;
+            case 'after': 
+                $scope.pos = '后倾';
+                $scope.angle = $scope.Messages.getPosture().after;
+                $scope.unit = 'º';
+                $scope.maxAngle = 10;
             break;
             default:
                 $scope.pos = '--';

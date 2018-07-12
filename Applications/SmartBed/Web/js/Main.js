@@ -19,6 +19,18 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
                 }
             }
         })
+        .state('bind', {
+            url:'/bind/:pid',
+            views: {
+                'content': {
+                    templateUrl: 'fragment/home.html',
+                    controller: 'HomeController' 
+                },
+                'footer': {
+                    templateUrl: 'fragment/footer.html',
+                }
+            }
+        })
 
         .state('setup', {
             url:'/setup',
@@ -97,7 +109,7 @@ var isBound = {'tag':false, 'PID':null, 'text':'未绑定', 'title':'请先在�
 //待定PID，已绑定PID
 var inputPID = null;
 //姿态
-var posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--'};
+var posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--'};
 //记录
 var record_dates, record_postures;
 
@@ -144,7 +156,7 @@ function init($websocket){
         var oldtag = isBound['tag'];
         //各种状态复位
         isBound = {'tag':false, 'PID':null, 'text':'未绑定', 'title':'连接已重新修复'};
-        posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--'};
+        posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--'};
         record_dates = null;
         record_postures = null;
         //重连
@@ -152,13 +164,10 @@ function init($websocket){
         //发送消息后打开加载框
         if (oldtag && oldpid) {
             $.showLoading('连接已断开，正在重新绑定..');
-
             setTimeout(function() {
                 sendBind(oldpid);
             }, 2000)
-            setTimeout(function() {
-                sendQueryPosture();
-            }, 3000)
+
         }
         
     });

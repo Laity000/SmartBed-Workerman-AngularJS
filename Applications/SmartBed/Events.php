@@ -55,6 +55,9 @@ class Events
     {
         //info
       echo "\n". date('Y-m-d H:i:s') ." client:{".$client_id."} connecting...\n";
+        if($_SERVER['GATEWAY_PORT'] == 8283) {
+            BedPackageHandler::queryPID();
+        }
     }
     
    /**

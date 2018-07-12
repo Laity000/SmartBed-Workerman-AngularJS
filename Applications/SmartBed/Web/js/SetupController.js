@@ -1,6 +1,6 @@
  'use strict';
 
-app.controller('SetupController', ['$scope', '$location',  function($scope, $location) {
+app.controller('SetupController', function($scope, $location) {
 	//初始化设备PID
 	$scope.pid = $scope.Messages.getIsBound().PID;
 	//绑定成功跳转到msg页面
@@ -43,4 +43,4 @@ app.controller('SetupController', ['$scope', '$location',  function($scope, $loc
 			//vb_connect();
 		}
 	});*/
-}]);
+});

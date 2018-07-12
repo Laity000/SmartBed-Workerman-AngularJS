@@ -1,9 +1,9 @@
  'use strict';
 
-app.controller('MsgController', ['$scope', '$location',  function($scope, $location) {
+app.controller('MsgController', function($scope, ) {
 	
 	$scope.query = function(){
 		sendQueryPosture();
 	}
 	
-}]);
+});

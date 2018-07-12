@@ -56,11 +56,31 @@
             <div class="weui-grid__icon demos-grid-title" ng-switch-when="textShow">升降</div> 
             <p class="weui-grid__label">{{Messages.getPosture().lift}}cm</p>
         </a>
+        <a href="javascript:;" class="weui-grid" ng-click="controllPosture('before')"  ng-switch="showModel">
+            <div class="weui-grid__icon" ng-switch-when="pictureShow">
+                <img src="../images/before_grey.png" alt="">
+            </div>
+            <div class="weui-grid__icon demos-grid-title" ng-switch-when="textShow">前倾</div> 
+            <p class="weui-grid__label">{{Messages.getPosture().before}}º</p>
+        </a>
+        <a href="javascript:;" class="weui-grid" ng-click="controllPosture('after')"  ng-switch="showModel">
+            <div class="weui-grid__icon" ng-switch-when="pictureShow">
+                <img src="../images/after_grey.png" alt="">
+            </div>
+            <div class="weui-grid__icon demos-grid-title" ng-switch-when="textShow">后倾</div> 
+            <p class="weui-grid__label">{{Messages.getPosture().after}}º</p>
+        </a>
         <a href="javascript:;" class="weui-grid" ng-click="reset()">
             <div class="weui-grid__icon">
                 <img src="../images/reset_grey.png" alt="">
             </div>
             <p class="weui-grid__label" >复位</p>
+        </a>
+        <a href="javascript:;" class="weui-grid" ui-sref='video'>
+            <div class="weui-grid__icon">
+                <img src="../images/video_grey.png" alt="">
+            </div>
+            <p class="weui-grid__label">视频(测试)</p>
         </a>
         <a href="javascript:;" class="weui-grid" ui-sref='record({key:"date",value:"first"})'>
             <div class="weui-grid__icon">
@@ -74,10 +94,6 @@
             </div>
             <p class="weui-grid__label">设置</p>
         </a>
-    </div>
-
-    <div class="button_sp_area demos-header" >
-          <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary" ui-sref='video'>打开视频监控(测试)</a>
     </div>
 
 
