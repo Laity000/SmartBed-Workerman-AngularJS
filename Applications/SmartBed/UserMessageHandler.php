@@ -15,20 +15,20 @@ class UserMessageHandler
 			
 			case 'BIND':
 				self::checkBind($client_id, $message_data);
-				break;
-				case 'UNBIND':
+			break;
+			case 'UNBIND':
 				self::checkUnbind($client_id);
-				break;
+			break;
 			case 'CONTROL_POSTURE':
 				self::controlPosture($client_id, $message_data);
-				break;
+			break;
 			case 'QUERY_POSTURE':
 				self::queryPosture($client_id, $message_data);
-				break;
+			break;
 			default:
 			case 'QUERY_RECORD':
 				self::queryRecord($client_id, $message_data, $db);
-				break;
+			break;
 		}
 
 	}
@@ -72,8 +72,8 @@ class UserMessageHandler
 			self::sendServerFeedback(Utils::SUCCESS_BIND_CODE, Utils::SUCCESS_BIND_TEXT);
 			//info
 			echo "User[". $client_id ."]: ". Utils::SUCCESS_BIND_TAG ."\n";
-			//增加发送指令标志位
-
+			//增加指令发送标志位
+			//$_SESSION['sendTag'] = false;
 			return true;
 		}else{
 			//绑定的PID设备不在线 
@@ -182,6 +182,8 @@ class UserMessageHandler
 		}
 		//info
 		echo "Server: ". Utils::SUCCESS_CONTROLPOSTURE_TAG ."\n";
+		//发送标志位置true
+		//$_SESSION['sendTag'] = true;
 		return true;
 
 	}  
