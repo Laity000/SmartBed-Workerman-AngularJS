@@ -23,7 +23,7 @@ class UserMessageHandler
 				self::controlPosture($client_id, $message_data);
 			break;
 			case 'QUERY_POSTURE':
-				self::queryPosture($client_id, $message_data);
+				self::queryPostureByDB($client_id, $message_data, $db);
 			break;
 			default:
 			case 'QUERY_RECORD':
@@ -189,12 +189,12 @@ class UserMessageHandler
 	}  
 
 	/**
-	 * 查询控制姿态
+	 * 向设备查询姿态
 	 * @param string $client_id
 	 * @param string $message_data
 	 * @return bool
 	 */
-	private static function queryPosture($client_id, $message_data)
+	private static function queryPosture($client_id, $message_data, $db)
 	{
 		//info
 		echo "User[". $client_id ."]: send query_posture to Bed...\n";
@@ -209,6 +209,24 @@ class UserMessageHandler
 			case 8283:
 				$new_package = array('length' => 1, 'type' => Utils::QUERY_POSTURE );
 				Gateway::sendToClient($bed_id, $new_package);
+				
+				/*
+				//测试设备并行解析：时间必须大于0.2s
+				// 计数
+    			$count = 1;
+    			// 要想$timer_id能正确传递到回调函数内部，$timer_id前面必须加地址符 &
+    			$timer_id = Timer::add(0.1, function()use(&$timer_id, &$bed_id, &$new_package, &$count)
+    			{
+        			echo "Timer run $count\n";
+        			Gateway::sendToClient($bed_id, $new_package);
+        			// 运行10次后销毁当前定时器
+        			if($count++ >= 10)
+        			{
+            			Timer::del($timer_id);
+            			
+        			}
+    			});
+				*/
 				break;
 			case 8282:
 				//echo $bed_id;
@@ -220,6 +238,28 @@ class UserMessageHandler
 		}
 		return true;
 
+	}
+
+	/**
+	 * 向数据库查询姿态
+	 * @param string $client_id
+	 * @param string $message_data
+	 * @return bool
+	 */
+	private static function queryPostureByDB($client_id, $message_data, $db)
+	{
+		//info
+		echo "User[". $client_id ."]: query posture to database...\n";
+
+		//得到设备PID
+		//$boundPID = Gateway::getUidByClientId($client_id);
+		$boundPID = $_SESSION['boundPID'];
+
+		//向数据库查询实时姿态
+		$bed_current = $db->select('current_head AS head, current_leg AS leg, current_left AS left, current_right AS right,current_lift AS lift, current_before AS before, current_after AS after, time')->from('tb_bed_record')->where('pid="' .$boundPID. '"')->row();	
+		$new_message = array('type' => 'POSTURE', 'from' => 'SERVER', 'content' => $bed_current);
+		Gateway::sendToCurrentClient(json_encode($new_message));
+		return true;
 	}
 
 	private static function queryRecord($client_id, $message_data, $db){
@@ -254,8 +294,8 @@ class UserMessageHandler
 				/*if (empty($dates)) {
 					$dates[0]['date'] = '暂无数据';
 				}*/
-				$new_message = array('type' => 'RECORD', 'from' => 'SERVER', 
-						'content' => array('dates' => $dates));
+				$new_message = array('type' => 'RECORD', 'from' => 'dates', 
+						'content' => $dates);
 				Gateway::sendToCurrentClient(json_encode($new_message));
 
 			break;
@@ -265,8 +305,8 @@ class UserMessageHandler
 					FROM `tb_posture_record` 
 					WHERE pid="' .$boundPID. '" and date(time) = "' .$value. '"';
 					$postures = $db->query($sql);
-					$new_message = array('type' => 'RECORD', 'from' => 'SERVER', 
-						'content' => array('postures' => $postures));
+					$new_message = array('type' => 'RECORD', 'from' => 'postures', 
+						'content' => $postures);
 					Gateway::sendToCurrentClient(json_encode($new_message));
 				}
 

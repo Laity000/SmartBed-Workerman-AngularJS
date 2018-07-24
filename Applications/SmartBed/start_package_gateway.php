@@ -22,9 +22,9 @@ $gateway_package->startPort = 2500;
 // 心跳间隔
 //$gateway_package->pingInterval = 10;
 // 心跳未响应断开时间
-//$gateway->pingNotResponseLimit = 3;
+//$gateway->pingNotResponseLimit = 0;
 // 心跳数据
-//$gateway_package->pingData = "";
+//$gateway_package->pingData = '{"type":"ping"}';
 // 服务注册地址
 // ##########新增端口支持Package协议 结束##########
 

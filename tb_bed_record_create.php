@@ -8,16 +8,18 @@ if(! $conn )
     die('connect fail: ' . mysqli_error($conn));
 }
 echo "connect success!\n";
-$sql = "CREATE TABLE tb_posture_record( ".
-        "id INT NOT NULL AUTO_INCREMENT, ".
-        "time DATETIME, NOT NULL, ".
-        "uid VARCHAR(32), ".
-        "posture_head TINYINT,".
-        "posture_leg TINYINT,".
-        "posture_left TINYINT,".
-        "posture_right TINYINT,".
-        "posture_lift TINYINT,".
-        "PRIMARY KEY ( id ))ENGINE=InnoDB DEFAULT CHARSET=utf8; ";
+$sql = "CREATE TABLE tb_bed_record( ".
+        "pid CHAR(8) NOT NULL, ".
+        "password VARCHAR(32), ".
+        "current_head TINYINT,".
+        "current_leg TINYINT,".
+        "current_left TINYINT,".
+        "current_right TINYINT,".
+        "current_lift TINYINT,".
+        "current_before TINYINT,".
+        "current_after TINYINT,".
+        "time DATETIME,".
+        "PRIMARY KEY ( pid ))ENGINE=InnoDB DEFAULT CHARSET=utf8; ";
 mysqli_select_db( $conn, 'db_smartbed' );
 $retval = mysqli_query( $conn, $sql );
 if(! $retval )

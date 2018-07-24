@@ -109,7 +109,7 @@ var isBound = {'tag':false, 'PID':null, 'text':'未绑定', 'title':'请先在�
 //待定PID，已绑定PID
 var inputPID = null;
 //姿态
-var posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--'};
+var posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--','time':null};
 //记录
 var record_dates, record_postures;
 
@@ -156,7 +156,7 @@ function init($websocket){
         var oldtag = isBound['tag'];
         //各种状态复位
         isBound = {'tag':false, 'PID':null, 'text':'未绑定', 'title':'连接已重新修复'};
-        posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--'};
+        posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--','time':null};
         record_dates = null;
         record_postures = null;
         //重连
@@ -235,6 +235,7 @@ function onmessage(e)
                     isBound['text'] = '未绑定';
                     isBound['PID'] = null;
                     isBound['title'] = '请先在「设置」中绑定设备';
+                    posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--','time':null};
                 break;
             }
             if (code.charAt(2) === '0') {
@@ -252,7 +253,12 @@ function onmessage(e)
 
     //解析工作完成消息
     function parseDone(data){
-        posture = data['content'];
+        if (data['content'] !== null) {
+            posture = data['content'];
+            if (posture['time'] !== null) {
+                isBound['title'] = '姿态调整于' + posture['time'];
+            }
+        } 
         $.notification({
             title: "新消息",
             text: "设备已调整新姿态！",
@@ -272,7 +278,12 @@ function onmessage(e)
 
     //解析姿态消息
     function parsePosture(data){
-        posture = data['content'];
+        if (data['content'] !== null) {
+            posture = data['content'];
+            if (posture['time'] !== null) {
+                isBound['title'] = '姿态调整于' + posture['time'];
+            }
+        } 
         $.toptip('姿态查询成功', 'success');
       
     }
@@ -300,7 +311,7 @@ function onmessage(e)
     //解析记录(记录日期、记录姿态)
     function queryRecord(data){
         //$.toptip('姿态查询成功', 'success');
-        for (var key in data['content']) {
+        /*for (var key in data['content']) {
             switch (key) {
                 case 'dates':
                     console.log("查询记录日期成功.\n");
@@ -313,6 +324,16 @@ function onmessage(e)
             }
         //content中只有一个key/value
         break;
+        }*/
+        switch (data['from']) {
+            case 'dates':
+                console.log("查询记录日期成功.\n");
+                record_dates = data['content'];
+            break;
+            case 'postures':
+                console.log("设备记录姿态成功.\n");
+                record_postures = data['content'];
+            break;
         }
     }
 

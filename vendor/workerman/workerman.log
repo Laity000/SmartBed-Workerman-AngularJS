@@ -4252,3 +4252,372 @@ Stack trace:
 #11 C:\Users\PC\Desktop\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
 #12 C:\Users\PC\Desktop\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
 #13 {main}
+2018-07-23 16:55:14 ParseError: syntax error, unexpected '&', expecting ',' or ')' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:217
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('UserMessageHand...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): spl_autoload_call('UserMessageHand...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"BIND",...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"BIND",...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"BIND",...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-23 16:59:38 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-23 16:59:38 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-23 16:59:38 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 10:47:29 ParseError: syntax error, unexpected '=', expecting ',' or ')' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:172
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 10:48:08 ParseError: syntax error, unexpected '=', expecting ',' or ')' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:172
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 10:48:58 ParseError: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:172
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 10:49:38 ParseError: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:172
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 10:49:57 ParseError: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:172
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 10:50:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 10:50:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 10:50:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 10:53:24 PDOException: SQL:UPDATE `tb_bed_record` SET `current_head` = :current_head,`current_leg` = :current_leg,`current_left` = :current_left,`current_right` = :current_right,`current_lift` = :current_lift,`current_before` = :current_before,`current_after` = :current_after,`time` = :time WHERE pid= admin1 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin1' in 'where clause' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php:1772
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php(1830): Workerman\MySQL\Connection->execute('UPDATE `tb_bed_...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php(172): Workerman\MySQL\Connection->query()
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php(49): BedMessageHandler::sendDone('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#3 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): BedMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"DONE",...')
+#5 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"DONE",...')
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"DONE",...')
+#7 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#9 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#14 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#15 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#16 {main}
+2018-07-24 10:56:37 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 10:56:37 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 10:56:37 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 10:57:10 PDOException: SQL:UPDATE `tb_bed_record` SET `current_head` = :current_head,`current_leg` = :current_leg,`current_left` = :current_left,`current_right` = :current_right,`current_lift` = :current_lift,`current_before` = :current_before,`current_after` = :current_after,`time` = :time WHERE pid= admin1 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin1' in 'where clause' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php:1772
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php(1830): Workerman\MySQL\Connection->execute('UPDATE `tb_bed_...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php(172): Workerman\MySQL\Connection->query()
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php(49): BedMessageHandler::sendDone('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#3 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): BedMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"DONE",...')
+#5 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"DONE",...')
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"DONE",...')
+#7 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#9 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#14 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#15 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#16 {main}
+2018-07-24 11:02:44 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:02:44 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:02:44 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:03:17 PDOException: SQL:UPDATE `tb_bed_record` SET `current_head` = :current_head,`current_leg` = :current_leg,`current_left` = :current_left,`current_right` = :current_right,`current_lift` = :current_lift,`current_before` = :current_before,`current_after` = :current_after,`time` = :time WHERE pid= admin1 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin1' in 'where clause' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php:1772
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php(1830): Workerman\MySQL\Connection->execute('UPDATE `tb_bed_...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php(172): Workerman\MySQL\Connection->query()
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php(49): BedMessageHandler::sendDone('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#3 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): BedMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"DONE",...')
+#5 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"DONE",...')
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"DONE",...')
+#7 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#9 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#14 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#15 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#16 {main}
+2018-07-24 11:07:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:07:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:07:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:15:05 ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:181
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 11:15:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:15:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:15:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:15:45 ParseError: syntax error, unexpected 'ï¼‰' (T_STRING), expecting ',' or ')' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:181
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 11:17:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:17:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:17:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:17:04 ParseError: syntax error, unexpected 'ï¼‰' (T_STRING), expecting ',' or ')' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:181
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 11:17:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:17:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 11:17:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:19:40 Error: Call to a member function select() on null in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:260
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(26): UserMessageHandler::queryPostureByDB('7f00000108fc000...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): UserMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"QUERY_...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"QUERY_...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"QUERY_...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 15:26:17 Error: Call to a member function select() on null in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:259
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(26): UserMessageHandler::queryPostureByDB('7f00000108fc000...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): UserMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"QUERY_...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"QUERY_...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"QUERY_...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:28:56 Error: Call to a member function select() on null in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:259
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(26): UserMessageHandler::queryPostureByDB('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): UserMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"QUERY_...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"QUERY_...')
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"QUERY_...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#14 {main}
+2018-07-24 15:30:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:30:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:30:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:30:34 PDOException: SQL:SELECT current_head,current_leg,current_left,current_right,current_lift,current_before,current_after,time FROM `tb_posture_record` WHERE pid="admin1" SQLSTATE[42S22]: Column not found: 1054 Unknown column 'current_head' in 'field list' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php:1772
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php(1830): Workerman\MySQL\Connection->execute('SELECT current_...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(259): Workerman\MySQL\Connection->query()
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(26): UserMessageHandler::queryPostureByDB('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#3 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): UserMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"QUERY_...')
+#5 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"QUERY_...')
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"QUERY_...')
+#7 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#9 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#14 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#15 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#16 {main}
+2018-07-24 15:30:49 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:30:49 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:30:49 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:42:58 PDOException: SQL:SELECT current_head,current_leg,current_left,current_right,current_lift,current_before,current_after,time FROM `tb_bed_record` WHERE pid="admin1" SQLSTATE[42S22]: Column not found: 1054 Unknown column 'current_head' in 'field list' in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php:1772
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php(1830): Workerman\MySQL\Connection->execute('SELECT current_...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(259): Workerman\MySQL\Connection->query()
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(26): UserMessageHandler::queryPostureByDB('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#3 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): UserMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"QUERY_...')
+#5 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"QUERY_...')
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"QUERY_...')
+#7 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#9 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#14 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#15 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#16 {main}
+2018-07-24 15:44:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:44:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:44:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:45:08 PDOException: SQL:SELECT head,leg,left,right,lift,before,after,time FROM `tb_bed_record` WHERE pid="admin1" SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'right,lift,before,after,time FROM `tb_bed_record` WHERE pid="admin1"' at line 1 in C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php:1772
+Stack trace:
+#0 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\mysql-master\src\Connection.php(1830): Workerman\MySQL\Connection->execute('SELECT head,leg...', Array)
+#1 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(259): Workerman\MySQL\Connection->query()
+#2 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(26): UserMessageHandler::queryPostureByDB('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#3 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): UserMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#4 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"QUERY_...')
+#5 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"QUERY_...')
+#6 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"QUERY_...')
+#7 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#8 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#9 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#10 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#11 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#12 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#13 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#14 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#15 C:\Users\PC\Desktop\samrtbed+ºó¶Ë+Ç°¶Ë+×ÊÁÏ\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(36): Workerman\Worker::runAll()
+#16 {main}
+2018-07-24 15:45:59 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:45:59 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 15:45:59 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 16:24:53 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 16:24:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 16:24:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 16:24:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 16:24:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-07-24 16:24:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail

@@ -114,6 +114,7 @@ class BedMessageHandler{
         Gateway::sendToCurrentClient(json_encode($new_message));
         //info
         echo "Bed[". $PID ."]: connect successful!\n";
+        //创建
         return true;
     }
 
@@ -157,9 +158,37 @@ class BedMessageHandler{
             return false;
         }else{
             //向绑定的用户工作完成信息
-            Gateway::sendToUid($_SESSION['PID'], json_encode($message_data));
-            //记录到数据库
             $odate = date("Y-m-d H:i:s");
+            $message_data['content']['time'] = $odate;
+            Gateway::sendToUid($_SESSION['PID'], json_encode($message_data));
+            //记录到数据库bed_record的posture
+            for ($i=0; $i < 2; $i++) { 
+                $row_count = $db->update('tb_bed_record')->cols(array(
+                'current_head'=>intval($message_data['content']['head']),
+                'current_leg' => intval($message_data['content']['leg']),
+                'current_left' => intval($message_data['content']['left']),
+                'current_right' => intval($message_data['content']['right']),
+                'current_lift' => intval($message_data['content']['lift']),
+                'current_before' => intval($message_data['content']['before']),
+                'current_after' => intval($message_data['content']['after']),
+                'time' => $odate))->where("pid='".$_SESSION['PID']."'")->query();
+                if ($row_count) {
+                    echo "Server: DB update bed_record posture successful.\n";
+                    break;   
+                }else{
+                    echo "Server: DB update bed_record posture failed!\n";
+                    //设备不存在则先插入设备pid
+                    $insert_id = $db->insert('tb_bed_record')->cols(array(
+                    'pid' => $_SESSION['PID'],
+                    'password' => "admin"))->query();
+                    if ($insert_id) {
+                        echo "Server: DB insert bed_record successful.\n";
+                    }else{
+                        echo "Server: DB insert bed_record failed!\n";
+                    }
+                }
+            }
+            //记录到数据库posture_record
             $insert_id = $db->insert('tb_posture_record')->cols(array(
             'pid' => $_SESSION['PID'],
             'uid'=> "",
@@ -172,9 +201,9 @@ class BedMessageHandler{
             'posture_after' => intval($message_data['content']['after']),
             'time' => $odate))->query();
             if ($insert_id) {
-                echo "Server: DB insert posture record successful.";
+                echo "Server: DB insert posture_record successful.\n";
             }else{
-                echo "Server: DB insert posture record failed!";
+                echo "Server: DB insert posture_record failed!\n";
             }
             return true;
         }
