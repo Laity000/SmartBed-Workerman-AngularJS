@@ -2,17 +2,19 @@
 
 use \GatewayWorker\Lib\Gateway;
 use \Workerman\Lib\Timer;
-//require_once("Utils.php");
+
 require_once __DIR__ . '/../../vendor/autoload.php';
 
+/**
+ * 
+ */
 class UserMessageHandler
 {
 	public static function handleMessage($client_id, $message_data, $db)
 	{
 			//对设备的消息进行分析并作出相应的动作
 		switch ($message_data['type']) 
-		{
-			
+		{	
 			case 'BIND':
 				self::checkBind($client_id, $message_data);
 			break;
@@ -48,10 +50,10 @@ class UserMessageHandler
 		if(empty($content))
 		{
 			//PID+password为空，创建登录失败反馈信息rejected
-				self::sendServerFeedback(Utlis::FAIL_BIND_PIDNULL_CODE, Utlis::FAIL_BIND_PIDNULL_TEXT);
-				//info
-				echo "User[". $client_id ."]: ". Utlis::FAIL_BIND_PIDNULL_TEXT ."\n";
-				return false;
+			self::sendServerFeedback(Utlis::FAIL_BIND_PIDNULL_CODE, Utlis::FAIL_BIND_PIDNULL_TEXT);
+			//info
+			echo "User[". $client_id ."]: ". Utlis::FAIL_BIND_PIDNULL_TEXT ."\n";
+			return false;
 		}
 		if (count($content) != 1)
 		{
@@ -103,14 +105,12 @@ class UserMessageHandler
 	 * @param string $text
 	 * @return boolean
 	 */
-	private static function sendServerFeedback($code, $text)
-	{
+	private static function sendServerFeedback($code, $text){
 			
 		$new_message = array('type' => 'SERVER_FEEDBACK', 'from' => 'SERVER', 'content' => array($code => $text));
 		Gateway::sendToCurrentClient(json_encode($new_message));
 		//echo "Server:(send feedback) ". $text ."[". $code ."]\n";
 	}
-
 
 	/**
 	 * 发送控制姿态
@@ -169,6 +169,15 @@ class UserMessageHandler
 			if (empty($bed_id)) {
 				return false;
 		}
+
+		//检查设备是否在工作
+		if (!empty(Gateway::getSession($bed_id)['control_posture_userid'])) {
+			self::sendServerFeedback(Utils::FAIL_CONTROLPOSTURE_WORKING_CODE, Utils::FAIL_CONTROLPOSTURE_WORKING_TEXT);
+			//info
+			echo "Server: ". Utils::FAIL_CONTROLPOSTURE_WORKING_TAG ." \n";
+			return false;
+		}
+
 		//发送控制姿态
 		switch (Gateway::getSession($bed_id)['port']) {
 			case 8283:
@@ -180,12 +189,15 @@ class UserMessageHandler
 			default:
 				echo "User[". $client_id ."]: send controll_posture error!\n";
 		}
+
+		//更新设备的姿态控制用户session
+		Gateway::updateSession($bed_id, array('control_posture_userid' => $client_id));
+
 		//info
 		echo "Server: ". Utils::SUCCESS_CONTROLPOSTURE_TAG ."\n";
 		//发送标志位置true
 		//$_SESSION['sendTag'] = true;
 		return true;
-
 	}  
 
 	/**
@@ -208,7 +220,7 @@ class UserMessageHandler
 		switch (Gateway::getSession($bed_id)['port']) {
 			case 8283:
 				$new_package = array('length' => 1, 'type' => Utils::QUERY_POSTURE );
-				Gateway::sendToClient($bed_id, $new_package);
+				//Gateway::sendToClient($bed_id, $new_package);
 				
 				/*
 				//测试设备并行解析：时间必须大于0.2s
@@ -227,12 +239,12 @@ class UserMessageHandler
         			}
     			});
 				*/
-				break;
+			break;
 			case 8282:
 				//echo $bed_id;
 				//var_export(Gateway::getAllClientSessions());
 				Gateway::sendToClient($bed_id, json_encode($message_data));
-				break;
+			break;
 			default:
 				echo "User[". $client_id ."]: send query_posture error!\n";
 		}
@@ -301,20 +313,19 @@ class UserMessageHandler
 			break;
 			case 'posture':
 				if (!empty($value)) {
-					$sql = 'SELECT posture_head, posture_leg, posture_left, posture_right,posture_lift,posture_before,posture_after, time
+					$sql = 'SELECT *
 					FROM `tb_posture_record` 
-					WHERE pid="' .$boundPID. '" and date(time) = "' .$value. '"';
+					WHERE pid="' .$boundPID. '" and date(time) = "' .$value.
+					'" ORDER BY time desc';
 					$postures = $db->query($sql);
 					$new_message = array('type' => 'RECORD', 'from' => 'postures', 
 						'content' => $postures);
 					Gateway::sendToCurrentClient(json_encode($new_message));
 				}
-
 			break;		
 			default:
 				echo "User[". $client_id ."]: send query_record error!\n";
 		}
-		
 		
 	}
 
@@ -325,19 +336,19 @@ class UserMessageHandler
 	 * @return bool
 	 */
 	private static function isBedOnline($PID){
-			//设备集session
-			$bed_sessions = Gateway::getAllClientSessions();
-			//检查PID绑定设备是否在线
-			foreach ($bed_sessions as $temp_client_id => $temp_sessions) 
-			{
+		//设备集session
+		$bed_sessions = Gateway::getAllClientSessions();
+		//检查PID绑定设备是否在线
+		foreach ($bed_sessions as $temp_client_id => $temp_sessions) 
+		{
 
-				if(!empty($temp_sessions['PID']) && $temp_sessions['PID'] == $PID)
-				{
-					return true;
-				}
-			
+			if(!empty($temp_sessions['PID']) && $temp_sessions['PID'] == $PID)
+			{
+				return true;
 			}
-			return false;
+			
+		}
+		return false;
 	}
 
 	/**
@@ -346,33 +357,33 @@ class UserMessageHandler
 	 * @return string $cliend_id
 	 */
 	private static function getBedID($user_id){
-			
-			//检查用户是否绑定了PID
-			//$boundPID = Gateway::getUidByClientId($user_id);
-			$boundPID = $_SESSION['boundPID'];
-			if(empty($boundPID) || $boundPID == null){
-					//未绑定PID
-					self::sendServerFeedback(Utils::FAIL_UNBOUND_CODE, Utils::FAIL_UNBOUND_TEXT);
-					//info
-					echo "Server: ". Utils::FAIL_UNBOUND_TAG ." \n";
-					return null;
-			 }
-			//设备集session
-			$bed_sessions = Gateway::getAllClientSessions();
-			//检查设备是否在线
-			foreach ($bed_sessions as $temp_client_id => $temp_sessions) 
-			{
 
-					if(!empty($temp_sessions['PID']) && $temp_sessions['PID'] == $boundPID)
-					{
-							 return $temp_client_id;
-					}
-			
-			}
-			self::sendServerFeedback(Utils::FAIL_OFFLINE_CODE, Utils::FAIL_OFFLINE_TEXT);
-				//info
-				echo "Server: ". Utils::FAIL_OFFLINE_TAG ." \n";
+		//检查用户是否绑定了PID
+		//$boundPID = Gateway::getUidByClientId($user_id);
+		$boundPID = $_SESSION['boundPID'];
+		if(empty($boundPID) || $boundPID == null){
+			//未绑定PID
+			self::sendServerFeedback(Utils::FAIL_UNBOUND_CODE, Utils::FAIL_UNBOUND_TEXT);
+			//info
+			echo "Server: ". Utils::FAIL_UNBOUND_TAG ." \n";
 			return null;
+		}
+		//设备集session
+		$bed_sessions = Gateway::getAllClientSessions();
+		//检查设备是否在线
+		foreach ($bed_sessions as $temp_client_id => $temp_sessions) 
+		{
+
+			if(!empty($temp_sessions['PID']) && $temp_sessions['PID'] == $boundPID)
+			{
+				return $temp_client_id;
+			}
+			
+		}
+		self::sendServerFeedback(Utils::FAIL_OFFLINE_CODE, Utils::FAIL_OFFLINE_TEXT);
+		//info
+		echo "Server: ". Utils::FAIL_OFFLINE_TAG ." \n";
+		return null;
 	}
 
 }

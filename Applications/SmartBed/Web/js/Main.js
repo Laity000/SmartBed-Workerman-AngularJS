@@ -206,7 +206,6 @@ function onmessage(e)
             parseDone(data);
         break;
         case 'UNDONE':
-            console.log("姿态调整失败！请检查.\n");
             parseUndone(data);
         break;
         case 'RECORD':
@@ -231,12 +230,15 @@ function onmessage(e)
                     isBound['title'] = '设备已绑定。正在实时监控中..';
                 break;
                 case '020':
+					//各种状态复位
                     isBound['tag'] = false;
                     isBound['text'] = '未绑定';
                     isBound['PID'] = null;
                     isBound['title'] = '请先在「设置」中绑定设备';
                     posture = {'head':'--','leg':'--','left':'--','right':'--','lift':'--','before':'--','after':'--','time':null};
-                break;
+					record_dates = null;
+					record_postures = null;
+				break;
             }
             if (code.charAt(2) === '0') {
                 //成功反馈UI
@@ -272,8 +274,16 @@ function onmessage(e)
 
      //解析工作异常消息
     function parseUndone(data){
-        $.toptip('设备工作中，请稍后..', 'warning');
-      
+        for(var code in data['content']){
+            //遍历json对象的每个key/value对
+            var text = data['content'][code];
+            console.log(text);
+            //获取绑定/解绑反馈信息
+            //只需要第一个key/value对  
+            //$.toptip(text, 'warning');
+            $.toptip(text);
+            break;
+        }  
     }
 
     //解析姿态消息

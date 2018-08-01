@@ -21,6 +21,13 @@ class Package
         return $unpack_data['length'] + 3;
     }
 
+
+    /**
+     * 解码
+     * @param string $buffer
+     *
+     * @return array 
+     */
     public static function decode($buffer){
         //echo "message received: ". bin2hex($buffer) ."\n";
         //解包
@@ -29,6 +36,7 @@ class Package
         switch ($unpack_data['type']) {
             case 0x00:
                 //PING 长度为1字节的反馈
+                $data =  unpack('Ctype/Csum', substr($buffer, 2));
                 break;
             case 0x01:
                 //CONNECT 长度为7字节的反馈
@@ -39,21 +47,27 @@ class Package
                 $data =  unpack('Ctype/Csum', substr($buffer, 2));
                 break;
             case 0x03:
-                //POSTURE 长度为6字节的反馈
+                //POSTURE 长度为8字节的反馈
                 $data =  unpack('Ctype/Chead/Cleg/Cleft/Cright/Clift/Cbefore/Cafter/Csum', substr($buffer, 2));
                 break;
             case 0x04:
-                //DONE 长度为1字节的反馈
+                //DONE 长度为8字节的反馈
                 $data =  unpack('Ctype/Chead/Cleg/Cleft/Cright/Clift/Cbefore/Cafter/Csum', substr($buffer, 2));
                 break;
             case 0x05:
-                //DONE 长度为1字节的反馈
-                $data =  unpack('Ctype/Csum', substr($buffer, 2));
+                //UNDONE 长度为1字节的反馈
+                $data =  unpack('Ctype/Ctag/Csum', substr($buffer, 2));
                 break;
         }
         return $data;
     }
 
+    /**
+     * 编码
+     * @param array $order
+     *
+     * @return string 
+     */
     public static function encode($order){
         $content_length = $order['length'] - 1;
         if ($content_length == 0) {

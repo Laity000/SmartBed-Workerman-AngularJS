@@ -65,7 +65,7 @@ class VirtualBed
 
     	$this->_con->onConnect = function($con) {
           
-            echo "[virtualbed: ". $this->_pid ."] send connect.\n";
+            echo "\n[virtualbed: ". $this->_pid ."] send connect.\n";
             self::send('CONNECT', array('PID' => $this->_pid));  
             
     	};
@@ -74,7 +74,7 @@ class VirtualBed
             Timer::add(2, function()
             {
 
-                echo "[virtualbed: ". $this->_pid ."] reconnect..\n";
+                echo "\n[virtualbed: ". $this->_pid ."] reconnect..\n";
                 $con = new AsyncTcpConnection('ws://127.0.0.1:8282');
                 $vb = new VirtualBed($con, $this->_pid);
                 $vb->connect();
@@ -99,7 +99,7 @@ class VirtualBed
             	case 'CONTROL_POSTURE':
                 	//self::adjustPosture($message_data);
                     if ($this->_isWorking) {
-                        self::sendUndone();
+                        self::sendUndone("1");
                     }else{
                         // 正在工作
                         $this->_isWorking = true;
@@ -144,7 +144,13 @@ class VirtualBed
      *
      */
     public function adjustPosture($message_data){
-    	foreach ($message_data['content'] as $pos => $angle) 
+    	/*
+        self::sendUndone("2");
+        //工作完成
+        $this->_isWorking = false;
+        return false;
+		*/
+        foreach ($message_data['content'] as $pos => $angle) 
    		{
         	//遍历每个key/value对
             switch($pos){
@@ -196,10 +202,11 @@ class VirtualBed
                 break;  
             }  
         } 
+        self::send('DONE', $this->_posture);
         echo "[virtualbed: ". $this->_pid ."] send done.\n";
-       	self::send('DONE', $this->_posture);
         //工作完成
         $this->_isWorking = false;
+        return true;
 
     }
 
@@ -208,28 +215,39 @@ class VirtualBed
      *
      */
     private function sendPID(){
-        echo "[virtualbed] send PID.\n";
-        self::send('PID', array('PID' => 'admin1'));  
+        self::send('PID', array('PID' => $this->_pid)); 
+        echo "[virtualbed] send PID.\n"; 
     } 
 
     /**
      * 发送设备PID
      *
      */
-    private function sendUndone(){
-        echo "[virtualbed: ". $this->_pid ."] send undone.\n";
-        self::send('UNDONE', array());  
+    private function sendUndone($tag){
+        switch ($tag) {
+            case '1':
+                self::send('UNDONE', array('2' => '其他用户操作中，请稍后..'));  
+            echo "[virtualbed: ". $this->_pid ."] send remote undone.\n";
+            break;
+
+            case '2':
+                self::send('UNDONE', array('2' => '手控盒操作中，请稍后..'));  
+                echo "[virtualbed: ". $this->_pid ."] send local undone.\n";
+            break;
+            
+            default:
+            # code...
+            break;
+        }
     } 
-
-
 
 	/**
      * 发送设备姿态消息
      *
      */
     private function sendPosture(){
-    	echo "[virtualbed: ". $this->_pid ."] send posture.\n";
        	self::send('POSTURE', $this->_posture);
+        echo "[virtualbed: ". $this->_pid ."] send posture.\n";
     }
 
     /**
@@ -241,7 +259,7 @@ class VirtualBed
     private function send($type, $content){
         $new_message = array('type' => $type, 'from' => 'BED', 'content' => $content);
 		$this->_con->send(json_encode($new_message));
-		echo "[virtualbed: ". $this->_pid ."] send data: ". json_encode($new_message) ."]\n";
+		echo "\n[virtualbed: ". $this->_pid ."] send data: ". json_encode($new_message) ."]\n";
     }
 
 }

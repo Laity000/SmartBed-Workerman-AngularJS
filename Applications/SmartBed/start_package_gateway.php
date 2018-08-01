@@ -20,11 +20,11 @@ $gateway_package->registerAddress = '127.0.0.1:1236';
 // gateway内部通讯起始端口，起始端口不要重复
 $gateway_package->startPort = 2500;
 // 心跳间隔
-//$gateway_package->pingInterval = 10;
+$gateway_package->pingInterval = 15;
 // 心跳未响应断开时间
-//$gateway->pingNotResponseLimit = 0;
+$gateway_package->pingNotResponseLimit = 2;
 // 心跳数据
-//$gateway_package->pingData = '{"type":"ping"}';
+//$gateway_package->pingData = array('length' => 1, 'type' => 0x10);
 // 服务注册地址
 // ##########新增端口支持Package协议 结束##########
 

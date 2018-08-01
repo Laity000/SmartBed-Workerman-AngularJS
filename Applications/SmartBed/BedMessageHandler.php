@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * 设备与服务器websocket协议的业务逻辑
@@ -123,7 +123,7 @@ class BedMessageHandler{
 
         echo "Bed[". $_SESSION['PID'] ."]:send posture info to users...\n";  
         if(empty($_SESSION['PID'])){
-             echo "Server: Bed session[PID] lost!\n";
+            echo "Server: Bed session[PID] lost!\n";
             Gateway::closeClient($client_id);
             return false;
         }else{
@@ -138,14 +138,20 @@ class BedMessageHandler{
 
         echo "Bed[". $_SESSION['PID'] ."]:send undone info to users...\n";
         if(empty($_SESSION['PID'])){
-             echo "Server: Bed session[PID] lost!\n";
-             Gateway::closeClient($client_id);
-             return false;
-        }else{
-            //向绑定的用户未完成信息
-            Gateway::sendToUid($_SESSION['PID'], json_encode($message_data));
-             return true;
+            echo "Server: Bed session[PID] lost!\n";
+            Gateway::closeClient($client_id);
+            return false;
         }
+                
+        //向绑定的用户发送未完成信息
+        //并释放设备的姿态控制用户session
+        if (!empty($_SESSION['control_posture_userid'])) {
+            Gateway::sendToClient($_SESSION['control_posture_userid'], json_encode($message_data));
+            $_SESSION['control_posture_userid'] = null;
+        }else{
+            Gateway::sendToUid($_SESSION['PID'], json_encode($message_data));
+        }
+        return true;
     }
 
 
@@ -156,14 +162,17 @@ class BedMessageHandler{
             echo "Server: Bed session[PID] lost!\n";
             Gateway::closeClient($client_id);
             return false;
-        }else{
-            //向绑定的用户工作完成信息
-            $odate = date("Y-m-d H:i:s");
-            $message_data['content']['time'] = $odate;
-            Gateway::sendToUid($_SESSION['PID'], json_encode($message_data));
-            //记录到数据库bed_record的posture
-            for ($i=0; $i < 2; $i++) { 
-                $row_count = $db->update('tb_bed_record')->cols(array(
+        }
+
+
+        //向绑定的用户工作完成信息
+        $odate = date("Y-m-d H:i:s");
+        $message_data['content']['time'] = $odate;
+        Gateway::sendToUid($_SESSION['PID'], json_encode($message_data));
+
+        //记录到数据库bed_record的posture
+        for ($i=0; $i < 2; $i++) { 
+            $row_count = $db->update('tb_bed_record')->cols(array(
                 'current_head'=>intval($message_data['content']['head']),
                 'current_leg' => intval($message_data['content']['leg']),
                 'current_left' => intval($message_data['content']['left']),
@@ -172,26 +181,35 @@ class BedMessageHandler{
                 'current_before' => intval($message_data['content']['before']),
                 'current_after' => intval($message_data['content']['after']),
                 'time' => $odate))->where("pid='".$_SESSION['PID']."'")->query();
-                if ($row_count) {
-                    echo "Server: DB update bed_record posture successful.\n";
-                    break;   
-                }else{
-                    echo "Server: DB update bed_record posture failed!\n";
-                    //设备不存在则先插入设备pid
-                    $insert_id = $db->insert('tb_bed_record')->cols(array(
+            if ($row_count) {
+                echo "Server: DB update bed_record posture successful.\n";
+                break;   
+            }else{
+                echo "Server: DB update bed_record posture failed!\n";
+                //设备不存在则先插入设备pid
+                $insert_id = $db->insert('tb_bed_record')->cols(array(
                     'pid' => $_SESSION['PID'],
                     'password' => "admin"))->query();
-                    if ($insert_id) {
-                        echo "Server: DB insert bed_record successful.\n";
-                    }else{
-                        echo "Server: DB insert bed_record failed!\n";
-                    }
+                if ($insert_id) {
+                    echo "Server: DB insert bed_record successful.\n";
+                }else{
+                    echo "Server: DB insert bed_record failed!\n";
                 }
             }
-            //记录到数据库posture_record
-            $insert_id = $db->insert('tb_posture_record')->cols(array(
+        }
+
+        //操作者类型
+        if (!empty($_SESSION['control_posture_userid'])) {
+            $user_type = 'remote';
+        }else{
+            $user_type = 'local';
+        }
+        
+        //记录到数据库posture_record
+        $insert_id = $db->insert('tb_posture_record')->cols(array(
             'pid' => $_SESSION['PID'],
-            'uid'=> "",
+            'user_type' => $user_type,
+            'uid'=> $_SESSION['control_posture_userid'],
             'posture_head' => intval($message_data['content']['head']),
             'posture_leg' => intval($message_data['content']['leg']),
             'posture_left' => intval($message_data['content']['left']),
@@ -200,13 +218,18 @@ class BedMessageHandler{
             'posture_before' => intval($message_data['content']['before']),
             'posture_after' => intval($message_data['content']['after']),
             'time' => $odate))->query();
-            if ($insert_id) {
-                echo "Server: DB insert posture_record successful.\n";
-            }else{
-                echo "Server: DB insert posture_record failed!\n";
-            }
-            return true;
+        if ($insert_id) {
+            echo "Server: DB insert posture_record successful.\n";
+        }else{
+            echo "Server: DB insert posture_record failed!\n";
         }
+
+        //释放设备的姿态控制用户session
+        if (!empty($_SESSION['control_posture_userid'])) {
+            $_SESSION['control_posture_userid'] = null;
+        }
+
+        return true;
     }
 
     private static function queryPID(){

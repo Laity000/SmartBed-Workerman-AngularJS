@@ -10,7 +10,8 @@ if(! $conn )
 echo "connect success!\n";
 $sql = "CREATE TABLE tb_posture_record( ".
         "id INT NOT NULL AUTO_INCREMENT, ".
-        "pid VARCHAR(32) NOT NULL, ".
+        "pid CHAR(8) NOT NULL, ".
+        "user_type CHAR(8)".
         "uid VARCHAR(32), ".
         "posture_head TINYINT,".
         "posture_leg TINYINT,".

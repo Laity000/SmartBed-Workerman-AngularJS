@@ -8,6 +8,7 @@ class Utils
 	/**
 	 * 接收类型消息
 	 */
+	const PING = 0X00;
 	const CONNECT = 0x01;
 	const DISCONNECT = 0x02;
 	const POSTURE = 0x03;
@@ -83,5 +84,9 @@ class Utils
 	const FAIL_CONTROLPOSTURE_ANGLE_CODE = "032";
 	const FAIL_CONTROLPOSTURE_ANGLE_TAG = "forwarding control_posture fail! angle is error.";
 	const FAIL_CONTROLPOSTURE_ANGLE_TEXT = "调整姿态失败！角度不正确";
+
+	const FAIL_CONTROLPOSTURE_WORKING_CODE = "033";
+	const FAIL_CONTROLPOSTURE_WORKING_TAG = "bed is working!";
+	const FAIL_CONTROLPOSTURE_WORKING_TEXT = "设备正在工作中，请稍后..";
 
 }

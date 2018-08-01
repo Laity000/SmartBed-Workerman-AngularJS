@@ -105,9 +105,12 @@ app.controller('HomeController', function($scope, $stateParams, $location) {
             break;
             default:
                 $scope.pos = '--';
-                $scope.angle = '--';
-                $scope.maxAngle = null;
+                $scope.angle = 0;
+                $scope.maxAngle = 0;
             }
+            if ($scope.maxAngle != 0) {
+                $scope.percent = $scope.angle / $scope.maxAngle * 100;
+            }        
         $("#controll-posture").popup();
     }
 
@@ -120,7 +123,7 @@ app.controller('HomeController', function($scope, $stateParams, $location) {
 
   	//增加角度操作
   	$scope.up = function(){
-  		if ($scope.angle == '--') {$scope.angle = 0;}
+  		if ($scope.angle == '--' || $scope.angle == null) {$scope.angle = 0;}
   		if($scope.angle >= $scope.maxAngle){
   			$scope.angle = $scope.maxAngle;
   			$scope.percent = 100;
@@ -129,7 +132,7 @@ app.controller('HomeController', function($scope, $stateParams, $location) {
   			$scope.angle ++;
   			$scope.percent = $scope.angle / $scope.maxAngle * 100;
   		}
-  		$('#angle-slider').slider();
+  		//$('#angle-slider').slider();
   	}
 
   	//减少角度操作
@@ -147,7 +150,7 @@ app.controller('HomeController', function($scope, $stateParams, $location) {
   	$scope.send = function(){
   		//检查控制权限
   		//检查姿态
-  		if ($scope.pos == '--' || $scope.angle == '--') {
+  		if ($scope.pos == '--' || $scope.angle == '--' || $scope.pos == null || $scope.angle == null) {
   			$.toptip('请输入正确姿态');
   			return;
   		}

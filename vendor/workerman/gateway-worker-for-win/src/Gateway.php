@@ -837,7 +837,7 @@ class Gateway extends Worker
      */
     public function ping()
     {
-        $ping_data = $this->pingData ? (string)$this->pingData : null;
+        $ping_data = $this->pingData ? $this->pingData : null;
         $raw = false;
         if ($this->protocolAccelerate && $ping_data && $this->protocol) {
             $ping_data = $this->preEncodeForClient($ping_data);
