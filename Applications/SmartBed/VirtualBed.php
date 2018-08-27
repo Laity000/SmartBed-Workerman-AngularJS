@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 模拟虚拟设备
+ * 模拟设备
  *
  * @author zhangjing
  * @link https://github.com/Laity000
@@ -73,7 +73,6 @@ class VirtualBed
         $this->_con->onClose = function($con){
             Timer::add(2, function()
             {
-
                 echo "\n[virtualbed: ". $this->_pid ."] reconnect..\n";
                 $con = new AsyncTcpConnection('ws://127.0.0.1:8282');
                 $vb = new VirtualBed($con, $this->_pid);

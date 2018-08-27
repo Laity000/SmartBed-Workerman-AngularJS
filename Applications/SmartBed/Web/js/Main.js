@@ -263,7 +263,7 @@ function onmessage(e)
         } 
         $.notification({
             title: "新消息",
-            text: "设备已调整新姿态！",
+            text: "设备已调整到新姿态！",
             media: "<img src='../images/success.png'>",
             data: "设备已调整到新姿态！",
             onClick: function(data) {

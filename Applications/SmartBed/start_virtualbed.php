@@ -1,4 +1,15 @@
 <?php
+
+
+/**
+ * 
+ * 启动模拟设备
+ *
+ * @author zhangjing
+ * @link https://github.com/Laity000
+ * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+
 use Workerman\Worker;
 use Workerman\Connection\AsyncTcpConnection;
 require_once __DIR__ . '/../../vendor/autoload.php';

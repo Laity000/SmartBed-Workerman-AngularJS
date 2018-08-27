@@ -224,8 +224,10 @@ class BedMessageHandler{
             echo "Server: DB insert posture_record failed!\n";
         }
 
-        //释放设备的姿态控制用户session
-        if (!empty($_SESSION['control_posture_userid'])) {
+        //释放计时器和设备session中的计时器id和用户id
+        if (!empty($_SESSION['control_posture_timerid'])) {
+            Timer::del($_SESSION['control_posture_timerid']);
+            $_SESSION['control_posture_timerid'] = null;
             $_SESSION['control_posture_userid'] = null;
         }
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * 设备链接端口
+ *
+ * @author zhangjing
+ * @link https://github.com/Laity000
+ * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ */
+
 
 use \Workerman\Worker;
 use \GatewayWorker\Gateway;

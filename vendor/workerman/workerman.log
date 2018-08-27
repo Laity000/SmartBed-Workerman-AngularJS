@@ -5114,3 +5114,304 @@ Stack trace:
 2018-08-01 20:12:48 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
 2018-08-01 20:12:49 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
 2018-08-01 20:12:49 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-08-03 09:59:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:30 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:30 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:30 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:30 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:30 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:30 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:32 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:34 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:34 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:34 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:34 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:34 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:34 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:35 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-08-03 09:59:36 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:36 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:36 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:36 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:36 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:36 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 09:59:37 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2018-08-03 10:00:52 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:52 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:52 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:52 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:52 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:52 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 10:00:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:18 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:24:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:20 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:41:24 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:26 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:26 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:26 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:26 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:26 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:26 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:42:28 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:57:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:57:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:57:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:57:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:57:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 14:57:51 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:26:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:26:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:26:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:26:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:26:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:26:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:27:15 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:27:15 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:27:15 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:27:15 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:27:15 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:27:15 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:29:47 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:29:47 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:29:47 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:29:47 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:29:47 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:29:47 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:32:22 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:35:56 ParseError: syntax error, unexpected '==' (T_IS_EQUAL) in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:202
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('UserMessageHand...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): spl_autoload_call('UserMessageHand...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"BIND",...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"BIND",...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"BIND",...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}
+2018-08-03 15:41:18 ParseError: syntax error, unexpected 'return' (T_RETURN), expecting ',' or ')' in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:208
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('UserMessageHand...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): spl_autoload_call('UserMessageHand...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"BIND",...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"BIND",...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"BIND",...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}
+2018-08-03 15:42:44 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:42:44 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:42:44 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:42:45 SendBufferToWorker fail. May be the send buffer are overflow. See http://wiki.workerman.net/Error2 for detail
+2018-08-03 15:42:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:42:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:42:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:56:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:56:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:56:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:58:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:58:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 15:58:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 16:55:06 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:201
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php(25): UserMessageHandler::controlPosture('7f00000108fc000...', Array)
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): UserMessageHandler::handleMessage('7f00000108fc000...', Array, Object(Workerman\MySQL\Connection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONTRO...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONTRO...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONTRO...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}
+2018-08-03 17:11:45 ParseError: syntax error, unexpected ',' in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:210
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('UserMessageHand...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): spl_autoload_call('UserMessageHand...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"BIND",...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"BIND",...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"BIND",...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}
+2018-08-03 17:11:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 17:11:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 17:11:46 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 17:12:14 ParseError: syntax error, unexpected ',' in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:210
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('UserMessageHand...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): spl_autoload_call('UserMessageHand...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"BIND",...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"BIND",...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"BIND",...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}
+2018-08-03 17:13:59 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 17:13:59 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 17:13:59 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-03 17:14:15 ParseError: syntax error, unexpected 'private' (T_PRIVATE) in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\UserMessageHandler.php:218
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('UserMessageHand...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(124): spl_autoload_call('UserMessageHand...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"BIND",...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"BIND",...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"BIND",...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}
+2018-08-27 21:46:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:54 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:56 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:56 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:56 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:56 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:56 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:56 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:58 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:58 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:58 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:58 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:58 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 21:46:58 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 22:06:47 ParseError: syntax error, unexpected '}' in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:232
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}
+2018-08-27 22:07:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 22:07:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 22:07:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-08-27 22:07:14 ParseError: syntax error, unexpected '}' in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\BedMessageHandler.php:232
+Stack trace:
+#0 [internal function]: Workerman\Autoloader::loadByNamespace('BedMessageHandl...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(121): spl_autoload_call('BedMessageHandl...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(75): Events::parseJsonPort('7f00000108fc000...', '{"type":"CONNEC...')
+#3 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"CONNEC...')
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(384): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"CONNEC...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#14 {main}

@@ -1,5 +1,7 @@
 <?php 
 /**
+ * 用户连接端口
+ * 
  * This file is part of workerman.
  *
  * Licensed under The MIT License

@@ -19,8 +19,7 @@ use \Workerman\Autoloader;
 require_once __DIR__ . '/../../vendor/autoload.php';
 
 // 所有的打印输出全部保存在/tmp/stdout.log文件中
-Worker::$stdoutFile = '/tmp/smartbed/log.log';
-// bussinessWorker 进程
+//// bussinessWorker 进程
 $worker = new BusinessWorker();
 // worker名称
 $worker->name = 'SBBusinessWorker';

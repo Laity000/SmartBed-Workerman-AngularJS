@@ -171,7 +171,7 @@ class UserMessageHandler
 		}
 
 		//检查设备是否在工作
-		if (!empty(Gateway::getSession($bed_id)['control_posture_userid'])) {
+		if (!empty(Gateway::getSession($bed_id)['control_posture_timerid'])) {
 			self::sendServerFeedback(Utils::FAIL_CONTROLPOSTURE_WORKING_CODE, Utils::FAIL_CONTROLPOSTURE_WORKING_TEXT);
 			//info
 			echo "Server: ". Utils::FAIL_CONTROLPOSTURE_WORKING_TAG ." \n";
@@ -189,16 +189,31 @@ class UserMessageHandler
 			default:
 				echo "User[". $client_id ."]: send controll_posture error!\n";
 		}
-
-		//更新设备的姿态控制用户session
-		Gateway::updateSession($bed_id, array('control_posture_userid' => $client_id));
-
 		//info
 		echo "Server: ". Utils::SUCCESS_CONTROLPOSTURE_TAG ."\n";
-		//发送标志位置true
-		//$_SESSION['sendTag'] = true;
-		return true;
-	}  
+
+		//更新设备session中的用户id
+		Gateway::updateSession($bed_id, array('control_posture_userid' => $client_id));
+
+		//反馈失败计数器
+		$duration = 20;
+		$timer_id = Timer::add($duration, function($bed_id, $client_id)use(&$timer_id){
+            if (Gateway::getSession($bed_id)['control_posture_timerid'] == $timer_id) {
+				$new_message = array('type' => 'SERVER_FEEDBACK', 'from' => 'SERVER', 'content' => array(Utils::FAIL_CONTROLPOSTURE_TIMEOUT_CODE => Utils::FAIL_CONTROLPOSTURE_TIMEOUT_TEXT));
+				Gateway::sendToClient($client_id, json_encode($new_message));
+				//释放设备session中的计时器id
+				Gateway::updateSession($bed_id, array('control_posture_timerid' => null));
+				Gateway::updateSession($bed_id, array('control_posture_userid' => 'unknown'));
+				//info
+				echo "\n". date('Y-m-d H:i:s') ." Server: ". Utils::FAIL_CONTROLPOSTURE_TIMEOUT_TAG ."\n";
+			}
+        }, array($bed_id, $client_id), false); 
+
+        //更新设备session中的计时器id
+		Gateway::updateSession($bed_id, array('control_posture_timerid' => $timer_id));
+		
+	}
+
 
 	/**
 	 * 向设备查询姿态

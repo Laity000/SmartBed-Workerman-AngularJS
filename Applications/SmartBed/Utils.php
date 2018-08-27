@@ -89,4 +89,8 @@ class Utils
 	const FAIL_CONTROLPOSTURE_WORKING_TAG = "bed is working!";
 	const FAIL_CONTROLPOSTURE_WORKING_TEXT = "设备正在工作中，请稍后..";
 
+	const FAIL_CONTROLPOSTURE_TIMEOUT_CODE = "034";
+	const FAIL_CONTROLPOSTURE_TIMEOUT_TAG = "posture feedback timeout.";
+	const FAIL_CONTROLPOSTURE_TIMEOUT_TEXT = "姿态反馈超时";
+
 }
