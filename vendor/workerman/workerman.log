@@ -5415,3 +5415,1100 @@ Stack trace:
 #12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
 #13 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
 #14 {main}
+2018-09-14 09:24:04 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:04 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:04 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:04 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:04 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:04 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:06 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:06 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:06 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:06 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:06 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-14 09:24:06 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-17 22:06:42 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-17 22:06:42 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-17 22:06:42 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-17 22:06:42 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-17 22:06:42 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-17 22:06:42 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:08 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:08 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:08 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:08 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:08 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:08 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:12 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:13 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:37:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:14 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:38:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:23 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:41:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:25 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:44:27 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:47:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:47:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:47:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:47:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:47:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:47:05 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:49:07 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:49:07 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:49:07 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:49:07 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:49:07 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 09:49:07 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 06:57:45 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 06:57:45 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 06:57:45 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 07:58:41 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:41 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:42 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:42 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:43 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:43 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:44 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:44 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:45 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:58:45 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 07:59:00 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:72
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(57): LoggerServer::log(100, '\n2018-09-18 07:...', 'test')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:01 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:01:08 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:72
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:02:16 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:03:01 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:90
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php(72): LoggerServer::getLoger('test')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#2 [internal function]: Events::onConnect('7f00000108fc000...')
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#13 {main}
+2018-09-18 08:03:10 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:90
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php(72): LoggerServer::getLoger('test')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#2 [internal function]: Events::onConnect('7f00000108fc000...')
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#13 {main}
+2018-09-18 08:03:43 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:92
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php(72): LoggerServer::getLoger('test')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#2 [internal function]: Events::onConnect('7f00000108fc000...')
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#13 {main}
+2018-09-18 08:03:57 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:03:57 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:03:57 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:03:57 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:92
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php(72): LoggerServer::getLoger('test')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#2 [internal function]: Events::onConnect('7f00000108fc000...')
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#13 {main}
+2018-09-18 08:08:38 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:92
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php(72): LoggerServer::getLoger('test')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#2 [internal function]: Events::onConnect('7f00000108fc000...')
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#13 {main}
+2018-09-18 08:09:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:09:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:09:10 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:09:10 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:92
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php(72): LoggerServer::getLoger('test')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#2 [internal function]: Events::onConnect('7f00000108fc000...')
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#13 {main}
+2018-09-18 08:09:19 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:92
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php(72): LoggerServer::getLoger('test')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#2 [internal function]: Events::onConnect('7f00000108fc000...')
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#4 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#12 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#13 {main}
+2018-09-18 08:10:05 Error: Call to a member function addRecord() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:74
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-18 08:17:32 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:32 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:32 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:72
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(56): LoggerServer::log('test', 100, '123')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-18 08:17:33 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:33 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:34 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:34 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:35 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:35 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 08:17:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:17:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:17:39 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:17:39 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php:56
+Stack trace:
+#0 [internal function]: Events::onConnect('7f00000108fc000...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2018-09-18 08:17:43 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php:56
+Stack trace:
+#0 [internal function]: Events::onConnect('7f00000108fc000...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2018-09-18 08:29:55 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php:56
+Stack trace:
+#0 [internal function]: Events::onConnect('7f00000108fc000...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2018-09-18 08:32:59 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php:61
+Stack trace:
+#0 [internal function]: Events::onConnect('7f00000108fc000...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2018-09-18 08:50:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:50:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:50:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:50:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:50:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:50:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:52:17 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:52:17 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:52:17 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:52:17 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:52:17 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:52:17 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-18 08:53:10 Error: Call to undefined function data() in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:71
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(66): LoggerServer->log(100, '1234')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-18 08:54:30 Error: Call to undefined function data() in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:71
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(66): LoggerServer->log(100, '1234')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-18 08:55:38 Error: Call to undefined function data() in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:71
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(66): LoggerServer->log(100, '1234')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-18 09:27:33 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 09:27:33 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 09:27:33 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-18 09:27:34 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-18 09:27:34 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 09:27:34 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-18 09:27:34 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-18 09:27:35 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:27:23 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:27:23 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:27:24 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:27:24 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:70
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#2 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:28:24 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:90
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:28:25 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:90
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:28:25 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:90
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 01:28:26 Error: Call to a member function log() on null in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php:90
+Stack trace:
+#0 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#1 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"SERVER...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#3 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#8 {main}
+2018-09-19 02:57:49 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:79
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 02:57:49 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:79
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:57:50 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:79
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 02:57:50 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:79
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:57:50 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:79
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:57:51 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:79
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:57:51 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:79
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 02:58:38 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:58:38 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 02:58:39 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:58:39 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:58:39 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:58:40 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 02:58:40 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:77
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 02:58:40 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 03:09:03 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:52
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 03:09:03 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:52
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 03:09:03 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:52
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 03:09:03 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:52
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 03:09:04 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:52
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 03:09:04 Error: Using $this when not in object context in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:52
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 03:11:43 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 03:11:43 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:46 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:46 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 08:59:47 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:47 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 08:59:47 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 08:59:47 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 08:59:48 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:48 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:49 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:49 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 08:59:49 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:49 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 08:59:50 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:50 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:50 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:50 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:50 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:50 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3 for detail
+2018-09-19 08:59:50 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:50 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\VirtualBed.php(70): LoggerServer::log(100, '\n[virtualbed: a...')
+#1 [internal function]: VirtualBed->{closure}(Object(Workerman\Connection\AsyncTcpConnection))
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\AsyncTcpConnection.php(296): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection))
+#3 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #22)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(296): call_user_func_array(Array, Array)
+#5 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): Workerman\Worker->run()
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_virtualbed.php(32): Workerman\Worker::runAll()
+#9 {main}
+2018-09-19 08:59:50 Error: Class name must be a valid object or a string in C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\LoggerServer.php:45
+Stack trace:
+#0 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\Events.php(64): LoggerServer::log(200, 'client:{7f00000...')
+#1 [internal function]: Events::onConnect('7f00000108fc000...')
+#2 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(379): call_user_func('Events::onConne...', '7f00000108fc000...')
+#3 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Connection\TcpConnection.php(629): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#6 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Events\Select.php(286): call_user_func_array(Array, Array)
+#7 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(856): Workerman\Events\Select->loop()
+#8 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\gateway-worker-for-win\src\BusinessWorker.php(190): Workerman\Worker->run()
+#9 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(473): GatewayWorker\BusinessWorker->run()
+#10 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\vendor\workerman\workerman-for-win\Worker.php(382): Workerman\Worker::runAllWorkers()
+#11 C:\Users\zj\Desktop\samrtbed+后端+前端+资料\workerman-smartbed-for-win\Applications\SmartBed\start_businessworker.php(35): Workerman\Worker::runAll()
+#12 {main}
+2018-09-19 09:10:58 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-19 09:10:58 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-19 09:10:59 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-19 09:10:59 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-19 09:11:00 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0
+2018-09-19 09:11:00 Gateway: Worker->name conflict. Key:127.0.0.1:SBBusinessWorker:0

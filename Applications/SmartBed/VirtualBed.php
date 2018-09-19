@@ -65,7 +65,9 @@ class VirtualBed
 
     	$this->_con->onConnect = function($con) {
           
-            echo "\n[virtualbed: ". $this->_pid ."] send connect.\n";
+            
+            //debug
+            LoggerServer::log(Utils::DEBUG, "\n[virtualbed: ". $this->_pid ."] send connect.\n");
             self::send('CONNECT', array('PID' => $this->_pid));  
             
     	};
@@ -73,7 +75,8 @@ class VirtualBed
         $this->_con->onClose = function($con){
             Timer::add(2, function()
             {
-                echo "\n[virtualbed: ". $this->_pid ."] reconnect..\n";
+                //debug
+                LoggerServer::log(Utils::DEBUG, "\n[virtualbed: ". $this->_pid ."] reconnect..\n");
                 $con = new AsyncTcpConnection('ws://127.0.0.1:8282');
                 $vb = new VirtualBed($con, $this->_pid);
                 $vb->connect();
@@ -82,7 +85,8 @@ class VirtualBed
         };
 
     	$this->_con->onMessage = function($con, $data) {
-    		echo "\n[virtualbed] received data: ".$data."\n";
+            //debug
+            LoggerServer::log(Utils::DEBUG, "\n[virtualbed] received data: ".$data."\n");
         	// 客户端传递的是json数据
         	$message_data = json_decode($data, true);
         	switch($message_data['type']){
@@ -132,7 +136,9 @@ class VirtualBed
     private function parseServerFeedback($message_data){
     	$text = reset($message_data['content']);
 		$code = key($message_data['content']);
-        echo "[virtualbed: ". $this->_pid ."] server feedback: ". $text ."[". $code ."]\n";
+        //debug
+        LoggerServer::log(Utils::DEBUG, "[virtualbed: ". $this->_pid ."] server feedback: ". $text ."[". $code ."]\n");
+        
         if ($code != 'rejected') {
         	//断开连接
         }
@@ -202,7 +208,9 @@ class VirtualBed
             }  
         } 
         self::send('DONE', $this->_posture);
-        echo "[virtualbed: ". $this->_pid ."] send done.\n";
+        
+        //debug
+        LoggerServer::log(Utils::DEBUG, "[virtualbed: ". $this->_pid ."] send done.\n");
         //工作完成
         $this->_isWorking = false;
         return true;
@@ -215,7 +223,9 @@ class VirtualBed
      */
     private function sendPID(){
         self::send('PID', array('PID' => $this->_pid)); 
-        echo "[virtualbed] send PID.\n"; 
+         
+        //debug
+        LoggerServer::log(Utils::DEBUG, "[virtualbed] send PID.\n");
     } 
 
     /**
@@ -226,12 +236,16 @@ class VirtualBed
         switch ($tag) {
             case '1':
                 self::send('UNDONE', array('2' => '其他用户操作中，请稍后..'));  
-            echo "[virtualbed: ". $this->_pid ."] send remote undone.\n";
+              
+                //debug
+                LoggerServer::log(Utils::DEBUG, "[virtualbed: ". $this->_pid ."] send remote undone.\n");
             break;
 
             case '2':
                 self::send('UNDONE', array('2' => '手控盒操作中，请稍后..'));  
-                echo "[virtualbed: ". $this->_pid ."] send local undone.\n";
+
+                //debug
+                LoggerServer::log(Utils::DEBUG, "[virtualbed: ". $this->_pid ."] send local undone.\n");
             break;
             
             default:
@@ -246,7 +260,9 @@ class VirtualBed
      */
     private function sendPosture(){
        	self::send('POSTURE', $this->_posture);
-        echo "[virtualbed: ". $this->_pid ."] send posture.\n";
+        
+        //debug
+        LoggerServer::log(Utils::DEBUG, "[virtualbed: ". $this->_pid ."] send posture.\n");
     }
 
     /**
@@ -258,7 +274,9 @@ class VirtualBed
     private function send($type, $content){
         $new_message = array('type' => $type, 'from' => 'BED', 'content' => $content);
 		$this->_con->send(json_encode($new_message));
-		echo "\n[virtualbed: ". $this->_pid ."] send data: ". json_encode($new_message) ."]\n";
+		
+        //debug
+        LoggerServer::log(Utils::DEBUG, "\n[virtualbed: ". $this->_pid ."] send data: ". json_encode($new_message) ."]\n");
     }
 
 }

@@ -21,9 +21,11 @@ class BedPackageHandler
     	switch ($package_data['type']) {
             case 'Utils::PING':
                 if(!empty($_SESSION['PID'])){
-                    echo "Bed[". $_SESSION['PID'] ."]: ping...\n";
+                    //debug
+                    LoggerServer::log(Utils::DEBUG, "Bed[". $_SESSION['PID'] ."]: ping...\n");
                 }else{
-                    echo "Bed[unknown]: ping...\n";
+                    //debug
+                    LoggerServer::log(Utils::DEBUG, "Bed[unknown]: ping...\n");
                 }
             break;
     		case Utils::CONNECT:
@@ -32,7 +34,8 @@ class BedPackageHandler
     		case Utils::DISCONNECT:
       			if(Gateway::isOnline($client_id)){
        				if(!empty($_SESSION['PID'])){                        
-          				echo "Bed[". $_SESSION['PID'] ."]: disconnecting...\n";
+                        //info
+                        LoggerServer::log(Utils::INFO, "Bed[". $_SESSION['PID'] ."]: disconnecting...\n");
        				}
         			Gateway::closeClient($client_id);
       			}
@@ -56,10 +59,12 @@ class BedPackageHandler
    	*/
 	private static function checkConnect($client_id, $package_data)
  	{
-    	echo "Server: connect checking...\n";
+        //info
+        LoggerServer::log(Utils::INFO, "Server: connect checking...\n");
     
     	if (!empty($_SESSION['PID'])) {
-            echo "Server: PID is existence.";
+            //error
+            LoggerServer::log(Utils::ERROR, "Server: PID is existence.\n");
             return false;
         }
      	//检查PID
@@ -67,8 +72,8 @@ class BedPackageHandler
         	//PID+password为空，创建登录失败反馈信息rejected
      		$new_package = array('length' => 1, 'type' => Utils::SERVER_FEEDBACK_FAIL);
       		Gateway::sendToCurrentClient($new_package);
-        	//info
-     		echo "Bed[unknown]: connect failed! PID is null.\n";
+            //error
+            LoggerServer::log(Utils::ERROR, "Bed[unknown]: connect failed! PID is null.\n");
      		Gateway::closeCurrentClient();
      		return false;
    		}
@@ -76,7 +81,8 @@ class BedPackageHandler
 
    			$new_package = array('length' => 1, 'type' => Utils::SERVER_FEEDBACK_FAIL);
       		Gateway::sendToCurrentClient($new_package);
-     		echo "Server: illegal instructions！Length of PID is not 6 byte.";
+            //error
+            LoggerServer::log(Utils::ERROR, "Server: illegal instructions！Length of PID is not 6 byte.");
      		return false;
    		}
 
@@ -94,8 +100,8 @@ class BedPackageHandler
           		//用户名重复，创建登录失败反馈信息
       			$new_package = array('length' => 1, 'type' => Utils::SERVER_FEEDBACK_FAIL);
       			Gateway::sendToCurrentClient($new_package);
-          		//info
-      			echo "Bed[". $PID ."]: connect failed! PID is repeated.\n";
+                //error
+                LoggerServer::log(Utils::ERROR, "Bed[". $PID ."]: connect failed! PID is repeated.\n");
       			//Gateway::closeCurrentClient();
 
                 //为防止设备1s多次重连
@@ -113,8 +119,9 @@ class BedPackageHandler
   		//创建连接成功反馈信息
   		$new_package = array('length' => 1, 'type' => Utils::SERVER_FEEDBACK_SUCCESS);
       	Gateway::sendToCurrentClient($new_package);
-  		//info
-  		echo "Bed[". $PID ."]: connect successful!\n";
+  	
+        //info
+        LoggerServer::log(Utils::INFO, "Bed[". $PID ."]: connect successful!\n");
   		return true;
 	}
 
@@ -124,7 +131,8 @@ class BedPackageHandler
     public static function queryPID(){
         $new_package = array('length' => 1, 'type' => Utils::QUERY_PID);
         Gateway::sendToCurrentClient($new_package);
-        echo "Server: query PID..";
+        //info
+        LoggerServer::log(Utils::INFO, "Server: query PID..\n");
     }
 
     /**
@@ -132,9 +140,11 @@ class BedPackageHandler
      */
 	private static function sendPosture($client_id, $package_data)
 	{
-  		echo "Bed[". $_SESSION['PID'] ."]:send posture info to users...\n";  
+        //info
+        LoggerServer::log(Utils::INFO, "Bed[". $_SESSION['PID'] ."]:send posture info to users...\n");  
   		if(empty($_SESSION['PID'])){
-    		echo "Server: Bed session[PID] lost!\n";
+            //error
+            LoggerServer::log(Utils::ERROR, "Server: Bed session[PID] lost!\n");
     		Gateway::closeClient($client_id);
     		return false;
   		}else{
@@ -149,12 +159,13 @@ class BedPackageHandler
      * 向用户发送工作完成消息(包括姿态)
      */
     private static function sendDone($client_id, $package_data, $db){
-
-        echo "Bed[". $_SESSION['PID'] ."]:send done info to users...\n";
+        //info
+        LoggerServer::log(Utils::INFO, "Bed[". $_SESSION['PID'] ."]:send done info to users...\n");
         if(empty($_SESSION['PID'])){
-        echo "Server: Bed session[PID] lost!\n";
-        Gateway::closeClient($client_id);
-        return false;
+            //error
+            LoggerServer::log(Utils::ERROR, "Server: Bed session[PID] lost!\n");
+            Gateway::closeClient($client_id);
+            return false;
         }
 
         //向绑定的用户工作完成信息
@@ -175,18 +186,23 @@ class BedPackageHandler
                 'current_after' => $package_data['after'],
                 'time' => $odate))->where("pid='".$_SESSION['PID']."'")->query();
             if ($row_count) {
-                echo "Server: DB update bed_record posture successful.\n";
+                //debug
+                LoggerServer::log(Utils::DEBUG, "Server: DB update bed_record posture successful.\n");
                 break;   
             }else{
-                echo "Server: DB update bed_record posture failed!\n";
+                //error
+                LoggerServer::log(Utils::ERROR, "Server: DB update bed_record posture failed!\n");
+
                     //设备不存在则先插入设备pid
                 $insert_id = $db->insert('tb_bed_record')->cols(array(
                     'pid' => $_SESSION['PID'],
                     'password' => "admin"))->query();
                 if ($insert_id) {
-                    echo "Server: DB insert bed_record successful.\n";
+                    //debug
+                    LoggerServer::log(Utils::DEBUG, "Server: DB insert bed_record successful.\n");
                 }else{
-                    echo "Server: DB insert bed_record failed!\n";
+                    //error
+                    LoggerServer::log(Utils::ERROR, "Server: DB insert bed_record failed!\n");
                 }
             }
         }
@@ -212,9 +228,11 @@ class BedPackageHandler
             'posture_after' => $package_data['after'],
             'time' => $odate))->query();
         if ($insert_id) {
-            echo "Server: DB insert posture record successful.\n";
+            //debug
+            LoggerServer::log(Utils::DEBUG, "Server: DB insert posture record successful.\n");
         }else{
-            echo "Server: DB insert posture record failed!\n";
+            //error
+            LoggerServer::log(Utils::ERROR, "Server: DB insert posture record failed!\n");
         }
 
         //释放计时器和设备session中的计时器id和用户id
@@ -233,9 +251,11 @@ class BedPackageHandler
      */
 	private static function sendUndone($client_id, $package_data)
 	{
-  		echo "Bed[". $_SESSION['PID'] ."]:send undone info to users...\n";
+        //info
+        LoggerServer::log(Utils::INFO, "Bed[". $_SESSION['PID'] ."]:send undone info to users...\n");
   		if(empty($_SESSION['PID'])){
-    		echo "Server: Bed session[PID] lost!\n";
+            //error
+            LoggerServer::log(Utils::ERROR, "Server: Bed session[PID] lost!\n");
     		Gateway::closeClient($client_id);
     		return false;
   		}
@@ -248,14 +268,18 @@ class BedPackageHandler
                 $new_message = array('type' => 'UNDONE', 'from' => 'SERVER', 'content' =>array('2' => "手控盒操作中，请稍后.."));
             break;
             default:
-                echo "Server: undone instruction error!\n";
+                //error
+                LoggerServer::log(Utils::ERROR, "Server: undone instruction error!\n");
             break;
         }
         //$new_message = array('type' => 'UNDONE', 'from' => 'SERVER');
 
-        //释放设备的姿态控制用户session
-        if (!empty($_SESSION['control_posture_userid'])) {
+        //向绑定的用户发送未完成信息
+        //并释放计时器和设备session中的用户id
+        if (!empty($_SESSION['control_posture_timerid'])) {
             Gateway::sendToClient($_SESSION['control_posture_userid'], json_encode($new_message));
+            Timer::del($_SESSION['control_posture_timerid']);
+            $_SESSION['control_posture_timerid'] = null;
             $_SESSION['control_posture_userid'] = null;
         }else{
             Gateway::sendToUid($_SESSION['PID'], json_encode($new_message));

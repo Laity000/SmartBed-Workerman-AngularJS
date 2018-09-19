@@ -42,7 +42,8 @@ class UserMessageHandler
 	 */
 	private static function checkBind($client_id, $message_data)
 	{
-		echo "Server: bind checking...\n";
+		//info
+        LoggerServer::log(Utils::INFO, "Server: bind checking...\n");
 		//当前PID+pid
 		$content = $message_data['content'];
 
@@ -52,14 +53,14 @@ class UserMessageHandler
 			//PID+password为空，创建登录失败反馈信息rejected
 			self::sendServerFeedback(Utlis::FAIL_BIND_PIDNULL_CODE, Utlis::FAIL_BIND_PIDNULL_TEXT);
 			//info
-			echo "User[". $client_id ."]: ". Utlis::FAIL_BIND_PIDNULL_TEXT ."\n";
+        	LoggerServer::log(Utils::INFO, "User[". $client_id ."]: ". Utlis::FAIL_BIND_PIDNULL_TEXT ."\n");
 			return false;
 		}
 		if (count($content) != 1)
 		{
 			self::sendServerFeedback(Utlis::FAIL_ILLEGAL_INSTRUIONS_CODE, Utlis::FAIL_ILLEGAL_INSTRUIONS_TEXT);
 			//info
-			echo "Server: ". Utlis::FAIL_ILLEGAL_INSTRUIONS_TEXT ." Length of BIND instruction is not 1.\n";
+        	LoggerServer::log(Utils::INFO, "Server: ". Utlis::FAIL_ILLEGAL_INSTRUIONS_TEXT ." Length of BIND instruction is not 1.\n");
 			return false;
 		}
 
@@ -73,7 +74,7 @@ class UserMessageHandler
 			$_SESSION['boundPID'] = $PID;
 			self::sendServerFeedback(Utils::SUCCESS_BIND_CODE, Utils::SUCCESS_BIND_TEXT);
 			//info
-			echo "User[". $client_id ."]: ". Utils::SUCCESS_BIND_TAG ."\n";
+        	LoggerServer::log(Utils::INFO, "Server: ". "User[". $client_id ."]: ". Utils::SUCCESS_BIND_TAG ."\n");
 			//增加指令发送标志位
 			//$_SESSION['sendTag'] = false;
 			return true;
@@ -81,7 +82,7 @@ class UserMessageHandler
 			//绑定的PID设备不在线 
 			self::sendServerFeedback(Utils::FAIL_BIND_OFFLINE_CODE, Utils::FAIL_BIND_OFFLINE_TEXT);
 			//info
-			echo "User[". $client_id ."]: ". Utils::FAIL_BIND_OFFLINE_TAG ."\n";
+        	LoggerServer::log(Utils::INFO, "User[". $client_id ."]: ". Utils::FAIL_BIND_OFFLINE_TAG ."\n");
 			return false;
 		}
 				
@@ -96,7 +97,8 @@ class UserMessageHandler
 		Gateway::unbindUid($client_id, null);
 		$_SESSION['boundPID'] = null;
 		self::sendServerFeedback(Utils::SUCCESS_UNBIND_CODE, Utils::SUCCESS_UNBIND_TEXT);
-		echo "User[". $client_id ."]: ". Utils::SUCCESS_UNBIND_TAG ."\n";
+		//info
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: ". Utils::SUCCESS_UNBIND_TAG ."\n");
 	}
 
 	/**
@@ -121,7 +123,7 @@ class UserMessageHandler
 	private static function controlPosture($client_id, $message_data)
 	{
 		//info
-		echo "User[". $client_id ."]: send control_posture to Bed...\n";
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send control_posture to Bed...\n");
 		
 		$angle = intval(reset($message_data['content']));
 		$pos = key($message_data['content']);
@@ -129,7 +131,7 @@ class UserMessageHandler
 		if ($pos != 'reset' && ($angle < 0 || $angle > 90)) {
 			self::sendServerFeedback(Utils::FAIL_CONTROLPOSTURE_ANGLE_CODE, Utils::FAIL_CONTROLPOSTURE_ANGLE_TEXT);
 			//info
-			echo "Server: ". Utils::FAIL_CONTROLPOSTURE_ANGLE_TAG ." \n";
+        	LoggerServer::log(Utils::INFO, "Server: ". Utils::FAIL_CONTROLPOSTURE_ANGLE_TAG ." \n");
 			return false;
 		}
 		switch ($pos) {
@@ -160,7 +162,7 @@ class UserMessageHandler
 			default:
 				self::sendServerFeedback(Utils::FAIL_CONTROLPOSTURE_POS_CODE, Utils::FAIL_CONTROLPOSTURE_POS_TEXT);
 				//info
-				echo "Server: ". Utils::FAIL_CONTROLPOSTURE_POS_TAG ."\n";
+        		LoggerServer::log(Utils::INFO, "Server: ". Utils::FAIL_CONTROLPOSTURE_POS_TAG ."\n");
 				return false;
 		}
 
@@ -174,7 +176,7 @@ class UserMessageHandler
 		if (!empty(Gateway::getSession($bed_id)['control_posture_timerid'])) {
 			self::sendServerFeedback(Utils::FAIL_CONTROLPOSTURE_WORKING_CODE, Utils::FAIL_CONTROLPOSTURE_WORKING_TEXT);
 			//info
-			echo "Server: ". Utils::FAIL_CONTROLPOSTURE_WORKING_TAG ." \n";
+        	LoggerServer::log(Utils::INFO, "Server: ". Utils::FAIL_CONTROLPOSTURE_WORKING_TAG ." \n");
 			return false;
 		}
 
@@ -187,25 +189,26 @@ class UserMessageHandler
 				Gateway::sendToClient($bed_id, json_encode($message_data));
 				break;
 			default:
-				echo "User[". $client_id ."]: send controll_posture error!\n";
+				//info
+        		LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send controll_posture error!\n");
 		}
 		//info
-		echo "Server: ". Utils::SUCCESS_CONTROLPOSTURE_TAG ."\n";
+        LoggerServer::log(Utils::INFO, "Server: ". Utils::SUCCESS_CONTROLPOSTURE_TAG ."\n");
 
 		//更新设备session中的用户id
 		Gateway::updateSession($bed_id, array('control_posture_userid' => $client_id));
 
 		//反馈失败计数器
-		$duration = 20;
+		$duration = 120;
 		$timer_id = Timer::add($duration, function($bed_id, $client_id)use(&$timer_id){
             if (Gateway::getSession($bed_id)['control_posture_timerid'] == $timer_id) {
 				$new_message = array('type' => 'SERVER_FEEDBACK', 'from' => 'SERVER', 'content' => array(Utils::FAIL_CONTROLPOSTURE_TIMEOUT_CODE => Utils::FAIL_CONTROLPOSTURE_TIMEOUT_TEXT));
 				Gateway::sendToClient($client_id, json_encode($new_message));
-				//释放设备session中的计时器id
+				//超时释放设备session中的用户id和计时器id
 				Gateway::updateSession($bed_id, array('control_posture_timerid' => null));
 				Gateway::updateSession($bed_id, array('control_posture_userid' => 'unknown'));
 				//info
-				echo "\n". date('Y-m-d H:i:s') ." Server: ". Utils::FAIL_CONTROLPOSTURE_TIMEOUT_TAG ."\n";
+        		LoggerServer::log(Utils::INFO, "Server: ". Utils::FAIL_CONTROLPOSTURE_TIMEOUT_TAG ."\n");
 			}
         }, array($bed_id, $client_id), false); 
 
@@ -224,7 +227,7 @@ class UserMessageHandler
 	private static function queryPosture($client_id, $message_data, $db)
 	{
 		//info
-		echo "User[". $client_id ."]: send query_posture to Bed...\n";
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send query_posture to Bed...\n");
 
 		//得到设备pid
 		$bed_id = self::getBedID($client_id);
@@ -261,10 +264,10 @@ class UserMessageHandler
 				Gateway::sendToClient($bed_id, json_encode($message_data));
 			break;
 			default:
-				echo "User[". $client_id ."]: send query_posture error!\n";
+				//info
+        		LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send query_posture error!\n");
 		}
 		return true;
-
 	}
 
 	/**
@@ -276,7 +279,7 @@ class UserMessageHandler
 	private static function queryPostureByDB($client_id, $message_data, $db)
 	{
 		//info
-		echo "User[". $client_id ."]: query posture to database...\n";
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: query posture to database...\n");
 
 		//得到设备PID
 		//$boundPID = Gateway::getUidByClientId($client_id);
@@ -290,8 +293,9 @@ class UserMessageHandler
 	}
 
 	private static function queryRecord($client_id, $message_data, $db){
+		
 		//info
-		echo "User[". $client_id ."]: query record...\n";
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: query record...\n");
 		
 		//得到设备PID
 		//$boundPID = Gateway::getUidByClientId($client_id);
@@ -302,7 +306,7 @@ class UserMessageHandler
 			//未绑定PID
 			self::sendServerFeedback(Utils::FAIL_UNBOUND_CODE, Utils::FAIL_UNBOUND_TEXT);
 			//info
-			echo "Server: ". Utils::FAIL_UNBOUND_TAG ." \n";
+        	LoggerServer::log(Utils::INFO, "Server: ". Utils::FAIL_UNBOUND_TAG ." \n");
 			return false;
 		}
 
@@ -339,7 +343,8 @@ class UserMessageHandler
 				}
 			break;		
 			default:
-				echo "User[". $client_id ."]: send query_record error!\n";
+				//info
+        		LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send query_record error!\n");
 		}
 		
 	}
@@ -396,8 +401,9 @@ class UserMessageHandler
 			
 		}
 		self::sendServerFeedback(Utils::FAIL_OFFLINE_CODE, Utils::FAIL_OFFLINE_TEXT);
+	
 		//info
-		echo "Server: ". Utils::FAIL_OFFLINE_TAG ." \n";
+        LoggerServer::log(Utils::INFO, "Server: ". Utils::FAIL_OFFLINE_TAG ." \n");
 		return null;
 	}
 

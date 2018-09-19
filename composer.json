@@ -4,6 +4,8 @@
     "homepage": "http://www.workerman.net",
     "license" : "MIT",
     "require": {
-        "workerman/gateway-worker-for-win" : ">=3.0.0"
+        "workerman/gateway-worker-for-win" : ">=3.0.0",
+        "workerman/mysql": "^1.0",
+        "monolog/monolog": "^1.23"
     }
 }

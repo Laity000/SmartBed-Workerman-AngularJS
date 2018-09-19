@@ -21,8 +21,6 @@
 
 use \GatewayWorker\Lib\Gateway;
 
-require_once __DIR__  .'/../../vendor/mysql-master/src/Connection.php';
-
 require_once __DIR__ . '/../../vendor/autoload.php';
 /**
  * 主逻辑
@@ -38,10 +36,18 @@ class Events
     public static $db = null;
 
     /**
+     * logger
+     */
+    //public static $logger = null;
+
+    /**
      * 进程启动后初始化数据库连接
      */
     public static function onWorkerStart($worker)
     {
+        
+        //self::$logger = new LoggerServer('0.0.0.0:2207');
+
         self::$db = new \Workerman\MySQL\Connection('127.0.0.1', '3306', 'root', '123456', 'db_smartbed');
     }
 
@@ -51,15 +57,17 @@ class Events
      * 
      * @param int $client_id 连接id
      */
+    
     public static function onConnect($client_id)
     {
         //info
-        echo "\n". date('Y-m-d H:i:s') ." client:{".$client_id."} connecting...\n";
+        LoggerServer::log(Utils::INFO, "client:{".$client_id."} connecting...\n");
+        
         if($_SERVER['GATEWAY_PORT'] == 8283) {
             BedPackageHandler::queryPID();
         }
     }
-    
+
    /**
     * 当客户端发来消息时触发
     * @param int $client_id 连接id
@@ -79,7 +87,8 @@ class Events
             self::parsePackagePort($client_id, $message);
             break;
           default:
-          echo "[error_log]: unknown port!\n";
+          //error
+          self::$logger->log(Utils::ERROR, "[error_log]: unknown port!\n");
         }
     }
       
@@ -90,7 +99,8 @@ class Events
     public static function onClose($client_id)
     {
        
-        echo "\n". date('Y-m-d H:i:s') ." client:{".$client_id."} disconnecting...\n";
+        //info
+        LoggerServer::log(Utils::INFO, "client:{".$client_id."} disconnecting...\n");
     }
 
     /**
@@ -98,7 +108,8 @@ class Events
     *
     */
     private static function parsePackagePort($client_id, $package){
-        echo "\n". date('Y-m-d H:i:s') ." package: ". json_encode($package) ."\n";
+        //debug
+        LoggerServer::log(Utils::DEBUG, "package: ". json_encode($package) ."\n");
         BedPackageHandler::handlePackage($client_id, $package, self::$db);
     }
 
@@ -107,7 +118,9 @@ class Events
     *
     */
     private static function parseJsonPort($client_id, $message){
-        echo "\n". date('Y-m-d H:i:s') ." message: ".$message."\n";
+        //debug
+        LoggerServer::log(Utils::DEBUG, " message: ".$message."\n");
+    
         // 客户端传递的是json数据
         $message_data = json_decode($message, true);
         if(!$message_data)
@@ -123,8 +136,8 @@ class Events
           case 'USER':
             UserMessageHandler::handleMessage($client_id, $message_data, self::$db);
             break;
-          default:
-          echo "[". $client_id ."]: unknown sender!\n";
+          default;
+            LoggerServer::log(Utils::ERROR, "[". $client_id ."]: unknown sender!\n");
         }
     }
 }

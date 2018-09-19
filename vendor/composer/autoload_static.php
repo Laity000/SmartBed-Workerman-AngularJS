@@ -9,7 +9,16 @@ class ComposerStaticInit4c11d248e692cf81d1009139934f074d
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
+            'Workerman\\MySQL\\' => 16,
             'Workerman\\' => 10,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'G' => 
         array (
@@ -18,9 +27,21 @@ class ComposerStaticInit4c11d248e692cf81d1009139934f074d
     );
 
     public static $prefixDirsPsr4 = array (
+        'Workerman\\MySQL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/mysql/src',
+        ),
         'Workerman\\' => 
         array (
             0 => __DIR__ . '/..' . '/workerman/workerman-for-win',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'GatewayWorker\\' => 
         array (
