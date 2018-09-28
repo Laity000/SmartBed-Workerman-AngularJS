@@ -42,7 +42,9 @@
 
  - 本地测试：首先，运行start_for_win.bat；本地地址：127.0.0.1:55151
 
- >注意，需要mysql数据库的支持(mysql安装教程：（[这里](http://www.runoob.com/mysql/mysql-install.html)）)，新建db_smartbed数据库后，分别创建bed表和posture表(创建脚本在mysql_create文件夹中，需要在Event.php中修改数据库配置)。
+ >注意，本地运行需要配置运行环境：
+ > - 需要php的支持(([这里](http://doc.workerman.net/install/install.html))))
+ > - 需要mysql数据库的支持(mysql安装教程：([这里](http://www.runoob.com/mysql/mysql-install.html)))，新建db_smartbed数据库后，分别创建bed表和posture表(创建脚本在mysql_create文件夹中，需要在Event.php中修改数据库配置)。
  
 # Reference：
  - 我的设计思路：https://blog.csdn.net/u013480581/article/details/80931778
