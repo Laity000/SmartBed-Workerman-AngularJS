@@ -60,11 +60,19 @@ class Events
     
     public static function onConnect($client_id)
     {
-        //info
-        LoggerServer::log(Utils::INFO, "client:{".$client_id."} connecting...\n");
-        
-        if($_SERVER['GATEWAY_PORT'] == 8283) {
-            BedPackageHandler::queryPID();
+    
+        switch ($_SERVER['GATEWAY_PORT']) {
+          case 8282: 
+              //info
+              LoggerServer::log(Utils::INFO, "client:{".$client_id."} connecting...\n");
+              break;
+          case 8283:
+              LoggerServer::log(Utils::INFO, "bed:{".$client_id."} connecting...\n");
+              BedPackageHandler::queryPID();
+              break;
+          default:
+              //error
+              self::$logger->log(Utils::ERROR, "[error_log]: unknown port!\n");
         }
     }
 
@@ -99,8 +107,18 @@ class Events
     public static function onClose($client_id)
     {
        
-        //info
-        LoggerServer::log(Utils::INFO, "client:{".$client_id."} disconnecting...\n");
+        switch ($_SERVER['GATEWAY_PORT']) {
+          case 8282: 
+              //info
+              LoggerServer::log(Utils::INFO, "client:{".$client_id."} disconnecting...\n");
+              break;
+          case 8283:
+              LoggerServer::log(Utils::INFO, "bed:{".$client_id."} disconnecting...\n");
+              break;
+          default:
+              //error
+              self::$logger->log(Utils::ERROR, "[error_log]: unknown port!\n");
+        }
     }
 
     /**

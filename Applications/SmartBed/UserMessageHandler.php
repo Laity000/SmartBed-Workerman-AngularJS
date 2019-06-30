@@ -42,10 +42,12 @@ class UserMessageHandler
 	 */
 	private static function checkBind($client_id, $message_data)
 	{
-		//info
-        LoggerServer::log(Utils::INFO, "Server: bind checking...\n");
+		
 		//当前PID+pid
 		$content = $message_data['content'];
+
+		//info
+        LoggerServer::log(Utils::INFO, "Server: bind checking Bed[". $content['PID'] ."]...\n");
 
 		//检查content对应指令类型合法性
 		if(empty($content))
@@ -122,8 +124,13 @@ class UserMessageHandler
 	 */
 	private static function controlPosture($client_id, $message_data)
 	{
+
+		//得到设备PID
+		//$boundPID = Gateway::getUidByClientId($client_id);
+		$boundPID = $_SESSION['boundPID'];
+
 		//info
-        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send control_posture to Bed...\n");
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send control_posture to Bed[". $boundPID ."]...\n");
 		
 		$angle = intval(reset($message_data['content']));
 		$pos = key($message_data['content']);
@@ -226,8 +233,12 @@ class UserMessageHandler
 	 */
 	private static function queryPosture($client_id, $message_data, $db)
 	{
+		//得到设备PID
+		//$boundPID = Gateway::getUidByClientId($client_id);
+		$boundPID = $_SESSION['boundPID'];
+
 		//info
-        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send query_posture to Bed...\n");
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: send query_posture to Bed[". $boundPID ."]...\n");
 
 		//得到设备pid
 		$bed_id = self::getBedID($client_id);
@@ -278,8 +289,12 @@ class UserMessageHandler
 	 */
 	private static function queryPostureByDB($client_id, $message_data, $db)
 	{
+		//得到设备PID
+		//$boundPID = Gateway::getUidByClientId($client_id);
+		$boundPID = $_SESSION['boundPID'];
+
 		//info
-        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: query posture to database...\n");
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: query posture to database Bed[". $boundPID ."]...\n");
 
 		//得到设备PID
 		//$boundPID = Gateway::getUidByClientId($client_id);
@@ -294,12 +309,14 @@ class UserMessageHandler
 
 	private static function queryRecord($client_id, $message_data, $db){
 		
-		//info
-        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: query record...\n");
+		
 		
 		//得到设备PID
 		//$boundPID = Gateway::getUidByClientId($client_id);
 		$boundPID = $_SESSION['boundPID'];
+
+		//info
+        LoggerServer::log(Utils::INFO, "User[". $client_id ."]: query record bed[". $boundPID ."]...\n");
 		
 		//检查用户是否绑定了PID
 		if(empty($boundPID) || $boundPID == null){

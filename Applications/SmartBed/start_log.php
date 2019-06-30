@@ -15,34 +15,19 @@ use Monolog\Logger;
 require_once __DIR__ . '/../../vendor/autoload.php';
 require_once 'LoggerServer.php';
 
-
+//global $logger_worker;
 $logger_worker = new Worker("Websocket://0.0.0.0:2207");
 $logger_worker->name = 'LoggerServer';
 $logger_worker->count = 1;
-$logger_worker->onMessage =  function($connection, $data)
-{
-    var_dump($data);
-    $connection->send("hello world");
-};
 
-$logger_worker->onMessage = function($connection, $data) {
-	echo $data."\n";
-	$connection->send($data);
+// 调用类的静态方法。
+$logger_worker->onWorkerStart = array('LoggerServer', 'onWorkerStart');
+$logger_worker->onConnect     = array('LoggerServer', 'onConnect');
+$logger_worker->onMessage     = array('LoggerServer', 'onMessage');
+$logger_worker->onClose       = array('LoggerServer', 'onClose');
+$logger_worker->onWorkerStop  = array('LoggerServer', 'onWorkerStop');
 
-};
-		
-$logger_worker->onClose = function($connection) {
-	$connection->send("bye\n");
-};
-		
-$logger_worker->onConnect = function($connection){
-	//echo $connection;
-    $connection->send("hello\n");
-};
-
-LoggerServer::setWorker($logger_worker);
-
-
+$log = new LoggerServer($logger_worker);
 
 // 如果不是在根目录启动，则运行runAll方法
 

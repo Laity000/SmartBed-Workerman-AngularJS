@@ -28,6 +28,7 @@
             <div class="weui-grid__icon demos-grid-title" ng-switch-when="textShow">抬背</div> 
             <p class="weui-grid__label" >{{Messages.getPosture().head}}º</p>
         </a>
+        
         <a href="javascript:;" class="weui-grid" ng-click="controllPosture('leg')"   ng-switch="showModel">
             <div class="weui-grid__icon" ng-switch-when="pictureShow">
                 <img src="../images/leg_grey.png" alt="">
@@ -35,6 +36,7 @@
             <div class="weui-grid__icon demos-grid-title" ng-switch-when="textShow">抬腿</div> 
             <p class="weui-grid__label">{{Messages.getPosture().leg}}º</p>
         </a>
+        
         <a href="javascript:;" class="weui-grid" ng-click="controllPosture('left')"  ng-switch="showModel">
             <div class="weui-grid__icon" ng-switch-when="pictureShow">
                 <img src="../images/left_grey.png" alt="">
@@ -49,6 +51,7 @@
             <div class="weui-grid__icon demos-grid-title" ng-switch-when="textShow">右翻</div> 
             <p class="weui-grid__label">{{Messages.getPosture().right}}º</p>
         </a>
+
         <a href="javascript:;" class="weui-grid" ng-click="controllPosture('lift')"  ng-switch="showModel">
             <div class="weui-grid__icon" ng-switch-when="pictureShow">
                 <img src="../images/lift_grey.png" alt="">
@@ -56,6 +59,7 @@
             <div class="weui-grid__icon demos-grid-title" ng-switch-when="textShow">升降</div> 
             <p class="weui-grid__label">{{Messages.getPosture().lift}}cm</p>
         </a>
+
         <a href="javascript:;" class="weui-grid" ng-click="controllPosture('before')"  ng-switch="showModel">
             <div class="weui-grid__icon" ng-switch-when="pictureShow">
                 <img src="../images/before1_grey.png" alt="">

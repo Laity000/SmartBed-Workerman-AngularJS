@@ -182,6 +182,7 @@ class BedMessageHandler{
 
         //向绑定的用户工作完成信息
         $odate = date("Y-m-d H:i:s");
+        //echo $odate;
         $message_data['content']['time'] = $odate;
         Gateway::sendToUid($_SESSION['PID'], json_encode($message_data));
 
